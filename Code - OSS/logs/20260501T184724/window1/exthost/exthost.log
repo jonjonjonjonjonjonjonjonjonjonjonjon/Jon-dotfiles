@@ -1,0 +1,13 @@
+2026-05-01 18:47:27.877 [info] Extension host with pid 421287 started
+2026-05-01 18:47:28.134 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-05-01 18:47:28.172 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-05-01 18:47:28.194 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2026-05-01 18:47:28.213 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2026-05-01 18:47:28.739 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2026-05-01 18:47:28.842 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-05-01 18:47:28.848 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2026-05-01 18:47:29.016 [info] Eager extensions activated
+2026-05-01 18:47:29.018 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-05-01 18:47:29.021 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-05-01 18:47:34.910 [info] Extension host terminating: received terminate message from renderer
+2026-05-01 18:47:34.924 [info] Extension host with pid 421287 exiting with code 0

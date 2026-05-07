@@ -1,0 +1,6 @@
+; sup cuh
+
+(defvar meu_toggle true)
+
+(defpoll time :interval "10s"
+  "date '+%H:%M'")

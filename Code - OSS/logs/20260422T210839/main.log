@@ -1,0 +1,4 @@
+2026-04-22 21:08:39.860 [info] update#setState disabled
+2026-04-22 21:08:39.861 [info] update#ctor - updates are disabled as there is no update URL
+2026-04-22 21:08:56.355 [info] Extension host with pid 42928 exited with code: 0, signal: unknown.
+2026-04-22 21:08:56.440 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 42894]: crashed with code 15 and reason 'killed'

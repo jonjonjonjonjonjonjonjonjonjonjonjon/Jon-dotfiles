@@ -1,0 +1,9 @@
+# GIMP gimp-color-picker-tool options
+
+(foreground
+    (color "R'G'B'A u8" 4 "\16\66\100\377" 0))
+(background
+    (color "R'G'B'A u8" 4 "\16\66\100\377" 0))
+(pick-target background)
+
+# end of gimp-color-picker-tool options

@@ -1,0 +1,96 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "cc685eb73f5098827d09d1d2067e5b0cfb7831b4914d7074d4ea0aa15f5f3f3e",
+    "telemetry.devDeviceId": "a2c7be59-1740-4dfe-8b2b-6deb695f3fc6",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/hp/.config/hypr"
+            }
+        ],
+        "emptyWindows": [
+            {
+                "backupFolder": "1777673966407"
+            }
+        ]
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/hp/Workspace": "__default__profile__",
+            "file:///home/hp/.config/clispot": "__default__profile__",
+            "file:///home/hp/.config/hypr": "__default__profile__"
+        },
+        "emptyWindows": {
+            "1777669351807": "__default__profile__",
+            "1777673966407": "__default__profile__"
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "backupPath": "/home/hp/.config/Code - OSS/Backups/1777673966407",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 0,
+                "width": 1710,
+                "height": 1420
+            }
+        },
+        "openedWindows": []
+    },
+    "theme": "hc-black",
+    "themeBackground": "#000000",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "hc-black",
+        "colorInfo": {
+            "foreground": "#ffffff",
+            "background": "#000000",
+            "editorBackground": "#000000",
+            "titleBarBackground": "#000000",
+            "titleBarBorder": "#6fc3df",
+            "activityBarBackground": "#000000",
+            "activityBarBorder": "#6fc3df",
+            "sideBarBackground": "#000000",
+            "sideBarBorder": "#6fc3df",
+            "statusBarBorder": "#6fc3df",
+            "windowBorder": "#6fc3df"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 0,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 212,
+            "auxiliaryBarWidth": 212,
+            "workspaces": {
+                "cd1a4c642adc90836389a0b07691eb43": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "5d27dd8f166a77e068b312ec77d5ae57": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "6fd893ae707afef07191bfa7686df3b2": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "8b341f92088e36f2723ce5e1ca58aa73": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                }
+            }
+        }
+    }
+}

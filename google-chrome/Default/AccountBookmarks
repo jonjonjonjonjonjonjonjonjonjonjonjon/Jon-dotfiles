@@ -1,0 +1,239 @@
+{
+   "checksum": "c2361805c8390d0e9a75ac9d0f206a7c",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13114368231446006",
+            "date_last_used": "0",
+            "guid": "391a09ba-757f-4a5e-b4cc-d95131a18bb3",
+            "id": "8",
+            "meta_info": {
+               "last_visited_desktop": "13197148113284732"
+            },
+            "name": "JOGOS DO GUMBALL - Jogue Jogos do Gumball Grátis no Poki.pt!",
+            "type": "url",
+            "url": "http://poki.pt/gumball"
+         }, {
+            "date_added": "13116503790418844",
+            "date_last_used": "0",
+            "guid": "89c12f9d-04fc-4485-b1f4-7ba46fb7b9cb",
+            "id": "9",
+            "meta_info": {
+               "last_visited_desktop": "13205617451561536"
+            },
+            "name": "YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/?hl=pt-PT&gl=PT"
+         }, {
+            "date_added": "13238331875497266",
+            "date_last_used": "0",
+            "guid": "7b63f3fe-8a05-4285-bec2-bfebf8d7e462",
+            "id": "10",
+            "name": "www.amazon.es",
+            "type": "url",
+            "url": "https://www.amazon.es/"
+         }, {
+            "date_added": "13232128278529139",
+            "date_last_used": "0",
+            "guid": "ecfe5e27-1697-414c-b83c-893638a0e6c6",
+            "id": "11",
+            "name": "Gmail",
+            "type": "url",
+            "url": "https://accounts.google.com/b/0/AddMailService"
+         }, {
+            "date_added": "13204139132804613",
+            "date_last_used": "0",
+            "guid": "74e08f7a-1f9b-4283-b41c-54824c96e9f3",
+            "id": "12",
+            "meta_info": {
+               "last_visited_desktop": "13204139132804801"
+            },
+            "name": "Entrar em Escola Virtual",
+            "type": "url",
+            "url": "https://iam.escolavirtual.pt/auth/realms/EV/protocol/openid-connect/auth?state=7k5Gqg25V1NrAcFKPDlNjVJR9v4EU5AR&scope=name%2Cemail&response_type=code&approval_prompt=auto&client_id=ev-portal-web&redirect_uri=https%3A%2F%2Fportal.escolavirtual.pt%2Fauth%2Fcallback"
+         }, {
+            "date_added": "13230740782819896",
+            "date_last_used": "0",
+            "guid": "e2dfb09b-b322-498b-a5fb-e4321c6d84d5",
+            "id": "13",
+            "name": "Collections — Google Arts & Culture",
+            "type": "url",
+            "url": "https://artsandculture.google.com/partner?hl=en"
+         }, {
+            "date_added": "13232128278530474",
+            "date_last_used": "0",
+            "guid": "06d5d615-45f2-485b-9eff-85bc12838ebc",
+            "id": "14",
+            "name": "YouTube",
+            "type": "url",
+            "url": "https://youtube.com/"
+         }, {
+            "date_added": "13232128278531335",
+            "date_last_used": "0",
+            "guid": "0ed58bba-913c-4ef0-bb1a-09de80f14f41",
+            "id": "15",
+            "name": "Maps",
+            "type": "url",
+            "url": "https://maps.google.com/"
+         }, {
+            "date_added": "13242334262431306",
+            "date_last_used": "0",
+            "guid": "ac0086a8-bb95-4629-b779-a4e6a8d08731",
+            "id": "16",
+            "name": "padlet",
+            "type": "url",
+            "url": "https://padlet.com/"
+         }, {
+            "date_added": "13259416844444670",
+            "date_last_used": "0",
+            "guid": "782331aa-86b6-43b2-8536-322af56b2452",
+            "id": "17",
+            "name": "Escola Virtual",
+            "type": "url",
+            "url": "https://app.escolavirtual.pt/lms/playerteacher/externallesson/4033210/E/3066?seType=&coId=141921&bLkL=1"
+         }, {
+            "date_added": "13260222836100464",
+            "date_last_used": "0",
+            "guid": "8c94552f-9fce-4fea-9a0b-ec4705991db1",
+            "id": "18",
+            "name": "paper mario",
+            "type": "url",
+            "url": "https://arcadespot.com/game/paper-mario/"
+         }, {
+            "date_added": "13263248354757084",
+            "date_last_used": "0",
+            "guid": "0587fc37-4128-40ce-bf78-a6cd82b67463",
+            "id": "19",
+            "name": "Meet Luís ",
+            "type": "url",
+            "url": "https://meet.google.com/hzv-ghnr-mwb?pli=1&authuser=0"
+         }, {
+            "date_added": "13264022663354042",
+            "date_last_used": "0",
+            "guid": "b2c223fe-66b8-4f5a-8401-ba1ddff8427f",
+            "id": "20",
+            "name": "bom com amigos",
+            "type": "url",
+            "url": "https://dj3d.io/"
+         }, {
+            "date_added": "13266143883213803",
+            "date_last_used": "0",
+            "guid": "47f9de8e-a549-4f80-8cb6-a264eb7cdd69",
+            "id": "21",
+            "name": "Super CLASH Bros (demo version) by ClashDev",
+            "type": "url",
+            "url": "https://clashdev.itch.io/super-clash-bros"
+         }, {
+            "date_added": "13267821651690581",
+            "date_last_used": "0",
+            "guid": "e3031108-3bc1-4da3-a7ee-f6fe62667f87",
+            "id": "22",
+            "name": "Club Penguin",
+            "type": "url",
+            "url": "https://play.cprewritten.net/"
+         }, {
+            "date_added": "13270822568232754",
+            "date_last_used": "0",
+            "guid": "fc8e06dd-56b0-42a4-9c3d-9496fdc3e802",
+            "id": "23",
+            "name": "Emulator Games - Download Game ROMs",
+            "type": "url",
+            "url": "https://www.emulatorgames.net/"
+         }, {
+            "date_added": "13270909509371864",
+            "date_last_used": "0",
+            "guid": "ca59b797-104f-46ae-a383-e01dae423bef",
+            "id": "24",
+            "name": "Wii ROMs Free, Nintendo Wii ISOs",
+            "type": "url",
+            "url": "https://roms-download.com/roms/nintendo-wii"
+         }, {
+            "date_added": "13271537438848762",
+            "date_last_used": "0",
+            "guid": "d17c8211-0fe2-4ac7-ae1c-272717826dd2",
+            "id": "25",
+            "name": "Search - NiceROM.com - Featured Video Game ROMs and ISOs, Game Database for GBA, N64, Wii, SEGA, PSX, PSP, NES, SNES, 3DS, GBC and More",
+            "type": "url",
+            "url": "https://nicerom.com/search/?game-console=nintendo-wii"
+         }, {
+            "date_added": "13274823649384047",
+            "date_last_used": "0",
+            "guid": "add87c7f-537f-494f-9f74-1d5f4f1ca15f",
+            "id": "26",
+            "name": "Wii ROMs Download - Play Nintendo Wii Games",
+            "type": "url",
+            "url": "https://www.romspedia.com/roms/nintendo-wii"
+         }, {
+            "date_added": "13122067141940361",
+            "date_last_used": "0",
+            "guid": "bb7c5737-a370-48f6-8e22-40bd76d644fe",
+            "id": "27",
+            "name": "Code Lyoko Enxame de Monstros ~ interDidactica",
+            "type": "url",
+            "url": "http://www.interdidactica.com/jugar.php?lan=pt&game=ly001"
+         } ],
+         "date_added": "13418846999626841",
+         "date_last_used": "0",
+         "date_modified": "13274823649384047",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "5",
+         "name": "Barra de marcadores",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13418846999626841",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "6",
+         "name": "Outros marcadores",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [ {
+            "date_added": "13403406617921587",
+            "date_last_used": "0",
+            "guid": "c2a6ce18-b630-4a3f-8205-255245a8d0b7",
+            "id": "28",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "support.google.com",
+            "type": "url",
+            "url": "https://support.google.com/youtube/answer/7640706?hl=%@"
+         }, {
+            "date_added": "13403406622227547",
+            "date_last_used": "0",
+            "guid": "4eb5730a-7717-4991-b639-bdcdc622f118",
+            "id": "29",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Novo separador",
+            "type": "url",
+            "url": "chrome-native://newtab/"
+         }, {
+            "date_added": "13407357319955888",
+            "date_last_used": "0",
+            "guid": "5fb3310c-cc28-49dd-bd61-670773f66f7c",
+            "id": "30",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Soul Browser - A litte gem you've probably never heard of | XDA Forums",
+            "type": "url",
+            "url": "https://xdaforums.com/t/soul-browser-a-litte-gem-youve-probably-never-heard-of.4159245/"
+         } ],
+         "date_added": "13418846999626841",
+         "date_last_used": "0",
+         "date_modified": "13407357319955888",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "7",
+         "name": "Marcadores telemóvel",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CnAKUAiIgQISSiAAkgE2CjQKDmNocm9tZV9zeW5jX2JtEgU1MSFibRoSCZmwnYPlTwYAEZmwnYPlTwYAKa7pnYPlTwYA6gEMCMr9mM8GEIjk2vEBEgAqGFlGWVhxRzluQlBLeU14TGlsL2ZROFE9PUgDEuwBCB0S5wEKHDZVdUMwYkxpbzQwWk9yWDA3RU5UbVgrOGpvND0SZlo6QURxdEFaeTVoc0tIWm5DeW9PTXRlN0pXOGhMU0FQN2FUTFZEcjM3b1E0bHZLY1pFajV2T2hUVnQ1SmlOS0ZXSmY1Y0EweHJDckJEQlpEc1VyMmM2Z0JpWUQwU3NkUThGMXc9PRgAIAAoADDrteyN7/uPAziT7M/EmDNAk+zPxJgzShxoT1pwK2lQSDMxWGJMS1d1akRGUFBlTzJsbTA9Wh8iHbpEVUpTanpZTzg2S2ZiNUg3R1IvWTIrcnRwbGs9ZQAAAAASrgIIEhKpAgocL0VTUkNpcFFLa0lZTHNhVVMyejlXQ2dsWFVzPRKmAVo6QURxdEFad3JFQmlyVEZUM0FJaDdaOHR6YzFPZ1Q4SXFxNW56OTNyWllzR1VmdjByMkhqYkEvOWhzSklBdXJZL0tFb0w2ekNzM0FUeUZEOGljTkZ1bzNHaCtvVndOa3VUQTBXT1BXUm8raGxiUFFZQzE5MTlwZDdEbFAwNmdLVVB3UVhsV0NWektYUzNPY1FXdXpaZlIva05OU2RHazMycEVBPT0YACAAKAAwxJX436DqgQM4hYujkYMvQIWLo5GDL0ocZ3hSYWVDSlFpRFBDOFBqREpOU1ZtQTUyK0RjPVogIh7/7kZWcTViUmJWcExVVmVsQjdUbDZEbDZUMjNBYz1l2lbA8xLrAQgcEuYBChxJaWhadnJvc3F4VzJFclVzTFhRa1c3SGNPQ3c9EmZaOkFEcXRBWnk1aHNLSFpuQ3lvT010ZTdKVzhoTFNDMVM4ZWJmWkRpL1VmNU9iclFwdWkreUtBTWdJb3pyMXNlVGwwb0pDbHIybWh3SXd0WndLKzE2RlVwMVk0L1BhcHZ2eTJnPT0YACAAKAAw67Xsje/7jwM4yMrPxJgzQMjKz8SYM0ocK2g2T3pudEtNaEt5ZWhkQkZKR2dFajRVL0F3PVoeIhx1ODRtLzhRRjI1QkFHRy9TWkNTeWt6NEEwUVU9ZQAAAAASrgIIFxKpAgocblNTaC9PNGF3Zm45MTVYOGsvYUl0ZVN1N2pjPRKmAVo6QURxdEFad3JFQmlyVEZUM0FJaDdaOHR6YzFPZ2J5QkIrM21yeEQ5bU40NzhJOHNjOGQ1Z3BJOFduOWpyKzVDUWU0L3VQZGNoVlNwK2srcXh4ZTJTbk5nOWFvKytpVDRRZkxjcjVlbjBBQ0pIdzllUEJGRmNtTDkwbDFHQU12bmptMStPbk9WVytHKzh6akRQN0JjYU84R0J2RUc1VXNmUml3PT0YACAAKAAwxJX436DqgQM4qLLPz6ovQKiyz8+qL0ocRndOUVZETnNRNTJPbE1iREUrQmptaW1Dd3pVPVogIh7//zJEOGtCZ0RDS1NTeFVVQXN3WWMvUWMrblRLcz1lsKpj1hKrAQgFEqYBChx5eEovNmZ2a2VjcjdrcDVFUXpCNHRXTHBkYkU9Ek5aOkFEcXRBWnhPQ0x0SHdUMXJTbHVrcXZXdXZZR0hVOVFwbTNZOTJMT1FzUWc4bElyeFJKaVVpczZMZEEvRnZLTkZrNnR1bW56Z3p3Y0kYACAAKAAwjb+tw+jdiAM4AEAAShxhUkNXTGdoRjliNUlucUtJRHZ1Si9qdlFrRmM9WgBlAAAAABLtAQgZEugBChx0MWRNaGZiVE0rMUpOdk5VTnVMTG1sS0N4ZW89EmZaOkFEcXRBWnk1aHNLSFpuQ3lvT010ZTdKVzhoTFNUUkhVcnVaQlJsY0RKQjltVGhUemkvSmhMNFFVdmhSZGZJbmlYK1B6RE5rY2xGVTF4am5Ca1gwRmNERDM2bnhrWmZEaHZnPT0YACAAKAAwxJX436DqgQM4gdG/pK0vQIHRv6StL0ocbjhybUdib0N4Q0VFZXpIV052OEtuUXVMMFVzPVogIh7//2YwMGhETjhzVkkzc010Q013Q1BOcmJZcXZ2MD1lmKC8DxLDAQgHEr4BChxuamdEdTg4ZUNydlhwODZwRDdmSEdjcUZwODg9EmZaOkFEcXRBWnk4eUM2OXVXRUk0M2pzQ0RuLzBpd2ljUndiMGNMZ0pqbFV3dEZpdXFyVjliZFBic2cwbXRIeklvRml4Y1dNQTRldy9hejd2eEZrSlF5UVNjeHorQVJVTHEzY1R3PT0YACAAKAAwjb+tw+jdiAM4AEAAShx5ek5CMDFjbjU0QTdjUlUwdVQrL1BnbVR0VW89WgBlAAAAABKuAggREqkCChxwNGtGWjZrRXp3WWlGdVRINVVRaXZBbHpZK0k9EqYBWjpBRHF0QVp3ckVCaXJURlQzQUloN1o4dHpjMU9nVDhJcXE1bno5M3JaWXNHVWZ2MHIySWYrSU4wWko4MkVjeUdxMDZHemFNM3hieVRuK0NmaTRPYU54NG4yWmkwdVNZS0RxVkdJdkpCeUtzeVBQdzI4ZXNWdDhRaExJZHpmM1N6azJYcTNPSGQxWkY2VzVTN1RzWEN0TUtiYXhFcHV5ejNrdmc9PRgAIAAoADDElfjfoOqBAzidofmQgC9AnaH5kIAvShxraEhqNUZlbll4NENabUJLRmNNczZiM1cwNVE9WiAiHv/dWmpVejBGRjlCSXYybWJKekdzZ2dXNjFhSDFJPWWTKL+TEq0CCA8SqAIKHHA0RUhjU1NMR2FwRGhDc0RvcHNFY2VSdTdVTT0SpgFaOkFEcXRBWndyRUJpclRGVDNBSWg3Wjh0emMxT2dSODhTZTVOREZiaXlJWDM0WGtTbUxqUDBGYTA5a0c5bGZyZWsxeEdyZ0gybTg1SHhRTXVpQi9kR2xiNyt6N0VlQ2dDeDljQUhzMGp4ckpaUFZBLzF2OUYrSlA0SVhXZUl1b3VSMWlOSkdqNHorK0VjaFFmVDcrUTR2YTFaWkFKVkhqRGVTUT09GAAgACgAMMSV+N+g6oEDOLD9vcCaLkCw/b3Ami5KHC93NWU5S2hVRngvaExWdCswbXhGa1piUGhWZz1aHyId/0ZoSWdGaWJMR2txbGsvT2pJbnpFSlNaNmEvUT1lpPvomBLsAQgeEucBChxudGxZNTJtbW1XMVRCOU1VU255OTR2bzNPYUk9EmZaOkFEcXRBWnk1aHNLSFpuQ3lvT010ZTdKVzhoTFNQaHUyeHV0ajVkQ3pZRWtNYTZzR0FHVGZEbi9sM3ZEWXNXaUNEZ0hwME1EMjh1SVNxK29MaGp0T1BnTmpDdXg2S29GQ2xnPT0YACAAKAAwi6vZz9XqkAM4mqa7oKczQJqmu6CnM0ocYzEvSHl6Z3N4R0xGZ0ZYMjYzbWZTOGs5SEljPVofIh3dUWk5UFBtVnJ4R09uNTl2M0ZPbHZqUnhwY0xVPWUNCC2DEq4CCBQSqQIKHHEyTmJJRWpPcmVrSzRWQ3k1anZ3TlcxZURKbz0SpgFaOkFEcXRBWndyRUJpclRGVDNBSWg3Wjh0emMxT2dUOElxcTVuejkzclpZc0dVZnYwcjJPWkpkNXk3MUxHMm5RR3pUKzlUaDhaQmdZRmZJTjk1aVJMaFZqVmdPNUFrUXhCcTRNT1BaTDB5cU0vZ0VkN1ZDNktzM2RwbEw5dW5pR1FxY3paTHhyRHZ6Wk1zcFhNL0o0NThScmIyUUwvZkpoL042QT09GAAgACgAMMSV+N+g6oEDOLqRlqWRL0C6kZalkS9KHGtrM1ZUSzFvRG5ER053eDBMdGdhb29sVlYrND1aICIe//tmQWhESllTSGh5R1UwNXpxSm5UYWxJZWhhem89ZWrVoI8SrQIIChKoAgoccEtnTHorK1lybzN6cjFHcW5yYStFT2FxNnFrPRKmAVo6QURxdEFad3JFQmlyVEZUM0FJaDdaOHR6YzFPZ1Q4SXFxNW56OTNyWllzR1VmdjByMk41UmR1RTNhNHh1cTJKbTQraFhyMmlVeDNoWktuT1lFTVZmdEZwTll5S3YzTUUrb3BUcVlNVzRFM1pnQ1lwL1Yya2srVkdsSnNEMzRCZEVoUmZQOEtvbVYxcHJGTUdyZklLdU9ldmZyZEdlSVBYNHJBPT0YACAAKAAwxJX436DqgQM4qfHsyrEuQKnx7MqxLkocUW1WZzJBUWFaeFJhWWttcVMvbXZpdXBoRyswPVofIh3HQ1ozTUlXWW0zdUtqakVZcUVTeno4cmpwZmY4PWVoxmfZEq4CCBYSqQIKHHF5WmpVU2hZNFlXRnpGbXYyNFd1MmIrOUFqQT0SpgFaOkFEcXRBWndyRUJpclRGVDNBSWg3Wjh0emMxT2dieUJCKzNtcnhEOW1ONDc4SThzYzhjbnBIVlFDTzNqaHl2RzRnaXNoallXbzdRTEVMOUVJc0YvQlE3UXAxTXExR2QzbDV1bGZaTnlSTlBTKzNHZVk3b3dTM2ErMVRmVklzTXJRRzEyS3NwOUtiYzZ4RjZ5dlIzamJwd2tteWd4TVUxV3pxZz09GAAgACgAMMSV+N+g6oEDOOr91bifL0Dq/dW4ny9KHFkyaGoxN1hoaW5yeTNmTnNVeUlONUIvZ3p6OD1aICIe//5CNUtrWnFCMkoyMWxhVytzV3pDQ3hwZEV0TVk9ZXwqEUkSrQIIDRKoAgocd0tWMEpHVGlrdEFFOG9nRXB2eDZ5cEplZlJnPRKmAVo6QURxdEFad3JFQmlyVEZUM0FJaDdaOHR6YzFPZ0VxRkIxUFFaTW5LeXFmTW9NT2c3Um5heGZKbVJ4U0Z5ZHJNRU1LSXlodU1WKzVZWFFLOXpJN25QN2J6WDBOVis3MHQvN051TjQyUHJ3WjUrajhZbXZCdUhjUHo4Wk43WG1TUW9uUy8zM3N4bnZJUThwTk0wbWVscnR6aHdIKysvam5tRmRRPT0YACAAKAAwxJX436DqgQM45a2Rp5UuQOWtkaeVLkocV2VHc0tnNzlrczJEYzI5ZG5GS0xqYVl0NkhBPVofIh32cGlucE1VSzVQRy9yMEhwZEVGcklCN1NyQ2p3PWXGcGxwEsMBCAYSvgEKHFljU1RvbnZFU1B3cUNzNEwyY3JWaHY2OEw5OD0SZlo6QURxdEFaelRQc2ROVGFhNjRKMm1aRjRYQnpJVlRDQys5N2pFYkxvaE5NeWN1WGJzRmRMcnF6dFdXN2V2WlpvWFc4Y01udXJXcWphNS9VZy8xR3ptQWhKa1VkeldlMkRmSXc9PRgAIAAoADCNv63D6N2IAzgAQABKHG9QVmtod0JSYlY2NUtDV1IyK0lPTkhXb091OD1aAGUAAAAAEq4CCBgSqQIKHFg3MmVEcWxtdCsyeHMxdlpIM3lHczlQTzZMbz0SpgFaOkFEcXRBWndyRUJpclRGVDNBSWg3Wjh0emMxT2dieUJCKzNtcnhEOW1ONDc4SThzYzhYek5HaXAxaDF0aTMzZWNLWmN3anM5VVFjMHJXOWIxSjhMY1V2ZXVtRWlPaitsUWhlYWVIYTlGakRyMjhBbk8wcnB1NGdhSWpzQzdaQkFjY0l4c2lJY2M5TTB3aVBlQmxRK211OHJFSEFvVHRXamMzQT09GAAgACgAMMSV+N+g6oEDOPztifmqL0D87Yn5qi9KHCtKeWlLakhVUXkrdnEvbzdWdDZSS1pvTndQbz1aICIe//85MmZoejNNcnoxTGVtUWJqeWxpelp2aE5pR3c9ZaFljjcSrQIICRKoAgocdmVkY1NCWmdIa2tQUVNMVUxDNWw0MWh4K2lrPRKmAVo6QURxdEFad3JFQmlyVEZUM0FJaDdaOHR6YzFPZ0VsZWQzbEFxY3FtTUhhazlrZlJLL2lldzVKL1BNVFo1ZndxZTl5RENuNDZKQXlRWHpKSVoxYjVyMXBpeSt4ODhBRXlUcWNqVlE2Q0owZkdxS242MnloR1JDZ2k2cERiTmVTd01rek80NzY1dDF1QmNncGV3WDBSNGNVM1ZsZkkzSzlPTytRPT0YACAAKAAw5qutwKvDiAM4l8ilgtAtQJfIpYLQLUocaTRVcG1QRFg2dmwwdDZ1RmhWNThpRXdBQ2QwPVofIh21NHRHbVYwVVgxMlB0Z3dqWEswWTN0WXBxdnlvPWXY1mr0Eq0CCAsSqAIKHFNhckI5dlMrUWFST3VFeTBMcm9yWElZZDlQcz0SpgFaOkFEcXRBWndyRUJpclRGVDNBSWg3Wjh0emMxT2dSODhTZTVOREZiaXlJWDM0WGtTbUxodk1ScnRqWEd2QVNpYndxaEhYa2VRcUFmVG9HQlkwVjY1QWV5c1J5dkhnVWJ0ZUlhcmRDVzI3YUk0TEtBM0dyNStaWVJwL3JXM1VUWUhxWFNzckhXOGdGdmlTZUNJV0J0OGc0OG9uNC9UbXdkS3MxQT09GAAgAigCMKnE49rY/JMDOK/9vcCaLkCG85zb2jNKHFVhUGJ3Y05OaVVjeDZkUi9xVjJmaDR2ZGdpWT1aHyId2lBQZVZNMXF5SEVwTXlMR1RuT0V0S2dHWkIyZz1lXjgoVBKtAggOEqgCChxqaEJTbXNxZjNXbTQxdGZSVUZCaHZYQlIvV0U9EqYBWjpBRHF0QVp3ckVCaXJURlQzQUloN1o4dHpjMU9nUjg4U2U1TkRGYml5SVgzNFhrU21McXJvYVF4SWFxL2lIbjcyTkRBT1dEUzcrcmlBb01GTWY4VmtUT3BaeUpVM0l2Z1NSZVVQQm41NzF5dllZQ1crREVUV2FaOVhiTXNlWXBGSHNNeHJwVEQ3YWpnVU93S3FOMHJMVjZrQzJaSGFaQ0U5clE9PRgAIAAoADDElfjfoOqBAziv/b3Ami5Ar/29wJouShwwNG5UVkU1K1JoeDlnSWdESjh6eUh0ZFBNQjA9Wh8iHf42NkFPRlBLdEZmcDdlZWw5RENqbU5GSnBPdUE9ZTj5OTMSrgIIExKpAgoceU1VMU8rckFFaHVqUmpuREdyN2IwY0I5YXBVPRKmAVo6QURxdEFad3JFQmlyVEZUM0FJaDdaOHR6YzFPZ1Q4SXFxNW56OTNyWllzR1VmdjByMktPczduYjl5N2RjNVA5WjhXdkFtRXJ2cTF0UUxydUtOMXZpTXBBQ3JvSUVKS1Z0VERDdGxlWHo1ZXhXeHVKKzRtU3Vwek5IZngySGsra3d6dTJiODVCajB4azJudzY5ZVlxUUViWDhWVmdoaXFtZ2Z3PT0YACABKAEwrpvdrdj8kwM4xYv6s44vQI6Rl9vaM0ocblE2SUc3NkpUWndobGRuMjhoTkk5VnNFSGJVPVogIh7/9zhTQWd0Y0dGWmJKRXZVTFhURDZVekYxdm1rMD1lehKwzhKtAggMEqgCChxMcFRXS0Y4RHNwTGtMQXl4QzJMN1lnNW1jRTg9EqYBWjpBRHF0QVp3ckVCaXJURlQzQUloN1o4dHpjMU9nRWxlZDNsQXFjcW1NSGFrOWtmUksvaGVTZE5jMFJYdHlwdG5UQSs2aStlRm9Yc1lJRFlpZ3ZYS0xkL1Q2Yk0vN20yMSthQjVKUkxONXVnNEtJN0VONCtYMFU5RnFBdmNKZ1djUGoxbzlQYXh4K3RINjNDbHFCL3NEaFBCWWFtMXF0NFJ6NUE9PRgAIAAoADDElfjfoOqBAziXyKWC0C1Al8ilgtAtShxCb3lGZTV5RURydDdGSHg4VlFqZy9CNjdMZGM9Wh8iHe1oMFJUT1VXQzlnVnlZUGhXZTZUZk1YQVBlSjA9ZZKz7P0SrgIIFRKpAgocQk9FUjFGc0xvYVZOdmlIb1BBM3h3Si85Wi9rPRKmAVo6QURxdEFad3JFQmlyVEZUM0FJaDdaOHR6YzFPZ2J5QkIrM21yeEQ5bU40NzhJOHNjOGN5a0VCQkt6WmpVYTVLRmtTenBXeVFlTmlJYUJHaW5QT1JBL0p6QTg2UXlkd0lOa0RiTm85NEZicnVvNmJxdU1hZXFNUTNhZ2RlbS9iSVJDUUFoV3N6NENiNk5MOWNqaWVwTkVub29ZUTdKSlphVldnPT0YACAAKAAwxJX436DqgQM4zo/TmJkvQM6P05iZL0ocUTRvUE8wdnkvVFBnRUw1U0YxQ2NwYUhIU1kwPVogIh7//WRrZ1FMUjdpTzRPdUNycDVURWYyQTZnSTFxUT1lKdFMrRLuAQgaEukBChxJaHhRZm5VdS80bzR5bk51RnhKak1PQXlkZHc9EmZaOkFEcXRBWnk1aHNLSFpuQ3lvT010ZTdKVzhoTFNEeGZieXUwakhranNsTjBmMkpVRXJBREJNZXUvaFRDMDdJcUdBZ09xOFRmUFhES2l2b0dxeEZ3YjFGK3JDVUNXWmQwVk9BPT0YACAAKAAwxJX436DqgQM46IC+w7kvQOiAvsO5L0ocQWUvUkdiR3ZsK0RoU2Z0TXhKWEg0S1UxZFpNPVohIh///9k0cGEyTW9wQkc2NVIrc3pxQ01RYkx3Tkk4Y1k9ZebPeJQSrQIIEBKoAgocOUlrMjZleTYyNXczUE51ejl2VzFyV0ErTmF3PRKmAVo6QURxdEFad3JFQmlyVEZUM0FJaDdaOHR6YzFPZ1Q4SXFxNW56OTNyWllzR1VmdjByMkc5TzBGay93MFZ4ZGVlMlZVdmVvOEtzbEVRbGN4MUYvU3NOUUN6VHJBNkppclFVRitmVnI3bC9vWjcwMVZXWjZYSG5tRmVaQStkZ0dJVGoweFBPZlkzQmM0WTlOM1RqZ2VrTS9QUytmVEFpN0ZJcUpBPT0YACAAKAAwxJX436DqgQM4n5mrv8AuQJ+Zq7/ALkocQ0JWSTkzWkhjaHZvVFprWmNwejZkeFpQSGs4PVofIh3/dFl5MjZ3dUFNNXdCdHN6Rko2bUo3UGJzUkJ3PWWBe9YzEqwCCAgSpwIKHGtMT1VPSnpUNUpHaVZwRnpGUzdsQXM0T3BXYz0SpgFaOkFEcXRBWndyRUJpclRGVDNBSWg3Wjh0emMxT2dFbGVkM2xBcWNxbU1IYWs5a2ZSSy9xSWtWYkZsQXRHaVZqMDkyelpIVVZiQktWQXBJVHBsZjM4OHQ2NmRuSFRsREFvREFOOHFJWXIvZnE2Y0RqOVovdnRVYVNuQUg3aVBXUEdJL1RNN3d6Um1XeHR0V2ttY2llbTkvcktwMEVZaFhxY1VjUT09GAAgACgAMMSV+N+g6oEDOJbIpYLQLUCWyKWC0C1KHFZYaTdmZHkrQ3FaYkV1MHo3UzBqSzZPa2U2az1aHiIcakJlUjV0MEZoSC9uMVpXVWxsUmc4R0FudGlNPWXRidGKEu4BCBsS6QEKHEMzYXNoQUxJendDRVdRVXRxVFhTUVZHMGdUOD0SZlo6QURxdEFaeTVoc0tIWm5DeW9PTXRlN0pXOGhMU0NUUktoa1lPTlFjOFFwNXovbmRvS3lHa2Q3ZmpoaFZkck9lS3Z3UXBZeEpKaUg0dTJYUzFDQmFKM1ZZb0MxWUJsNjhsL2c9PRgAIAAoADDElfjfoOqBAzic+J/56TBAnPif+ekwShxjQ0pQTGd3aG8wV3F0bFJBYUMyNVlvMCtQODQ9WiEiH///7DhFSk0yTnlSMEZqSmJyRE1aOHllMTJKSnBtMD1lEoSMCjABOAA=",
+   "version": 1
+}

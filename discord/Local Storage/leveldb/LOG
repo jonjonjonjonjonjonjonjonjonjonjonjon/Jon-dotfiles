@@ -1,0 +1,11 @@
+2026/04/25-23:10:33.361 14ae2 Creating DB /home/hp/.config/discord/Local Storage/leveldb since it was missing.
+2026/04/25-23:10:33.376 14ae2 Reusing MANIFEST /home/hp/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2026/04/25-23:22:41.527 14ae2 Level-0 table #5: started
+2026/04/25-23:22:41.591 14ae2 Level-0 table #5: 4718728 bytes OK
+2026/04/25-23:22:41.592 14ae2 Delete type=0 #3
+2026/04/25-23:22:49.997 14ae2 Level-0 table #7: started
+2026/04/25-23:22:50.000 14ae2 Level-0 table #7: 34533 bytes OK
+2026/04/25-23:22:50.001 14ae2 Delete type=0 #4
+2026/04/25-23:26:50.576 14ae2 Level-0 table #9: started
+2026/04/25-23:26:50.583 14ae2 Level-0 table #9: 34189 bytes OK
+2026/04/25-23:26:50.585 14ae2 Delete type=0 #6

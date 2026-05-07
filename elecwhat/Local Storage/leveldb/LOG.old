@@ -1,0 +1,6 @@
+2026/04/29-16:40:04.826 bd92 Reusing MANIFEST /home/hp/.config/elecwhat/Local Storage/leveldb/MANIFEST-000001
+2026/04/29-16:40:04.827 bd92 Recovering log #10
+2026/04/29-16:40:04.828 bd92 Reusing old log /home/hp/.config/elecwhat/Local Storage/leveldb/000010.log 
+2026/04/29-18:31:20.567 bdae Level-0 table #14: started
+2026/04/29-18:31:20.569 bdae Level-0 table #14: 16993 bytes OK
+2026/04/29-18:31:20.571 bdae Delete type=0 #10

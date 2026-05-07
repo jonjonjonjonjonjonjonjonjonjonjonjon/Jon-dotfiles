@@ -1,0 +1,9 @@
+2026/04/30-18:56:02.250 2c81 Reusing MANIFEST /home/hp/.config/google-chrome/Profile 3/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/04/30-18:56:02.251 2c81 Recovering log #4
+2026/04/30-18:56:02.257 2c81 Reusing old log /home/hp/.config/google-chrome/Profile 3/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000004.log 
+2026/04/30-18:56:17.488 2c81 Level-0 table #8: started
+2026/04/30-18:56:17.536 2c81 Level-0 table #8: 3188558 bytes OK
+2026/04/30-18:56:17.537 2c81 Delete type=0 #4
+2026/04/30-19:00:43.348 2c80 Level-0 table #10: started
+2026/04/30-19:00:43.397 2c80 Level-0 table #10: 3251442 bytes OK
+2026/04/30-19:00:43.400 2c80 Delete type=0 #7

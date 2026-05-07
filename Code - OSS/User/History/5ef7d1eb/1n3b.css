@@ -1,0 +1,39 @@
+
+@define-color accent_color #3cff00;
+
+* {
+    /* Removida a duplicidade. Se a fonte falhar, ele usa Noto Sans */
+    font-family: "ShureTechMono Nerd Font";
+    border: none;
+    border-radius: 8px;
+    min-height: 0;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 0;
+    background: transparent;
+}
+
+#custom-os_btn {
+  margin-left: 0.5cm;
+}
+
+#cpu,
+#memory,
+#battery,
+#network,
+#clock,
+#tray,
+#workspaces,
+#pulseaudio {
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.3) 0%);
+  /* transition: all 0.3s ease;  box-shadow: 0px 0px 3px rgba(0,0,0,0.34); */
+  margin: 4px;
+  padding: 4px 8px;
+  border-radius: 8px;
+  /* color: rgb(220,220,220); */
+
+  /* Important style feature in order to give a glassy look! */
+  /* I'm using the top and bottom borders to mimic highlights in highly reflective surfaces, looks good with the glassy-look */
+  border-style: solid;
+  border-color: aquamarine;
+}

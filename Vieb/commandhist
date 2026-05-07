@@ -1,0 +1,338 @@
+close
+colorscheme verticaltabsright
+quitall
+close
+quitall
+close
+quitall
+colorscheme verticaltabsright
+quitall
+colorscheme verticaltabsright
+nunmap q<Any>
+punmap q<Any>
+vunmap q<Any>
+nunmap q<C-[>
+punmap q<C-[>
+vunmap q<C-[>
+nunmap q<Esc>
+punmap q<Esc>
+vunmap q<Esc>
+nmap q<Any> <:nunmap q<Any>><:punmap q<Any>><:vunmap q<Any>><:nunmap q<C-[>><:punmap q<C-[>><:vunmap q<C-[>><:nunmap q<Esc>><:punmap q<Esc>><:vunmap q<Esc>><startRecording>
+pmap q<Any> <:nunmap q<Any>><:punmap q<Any>><:vunmap q<Any>><:nunmap q<C-[>><:punmap q<C-[>><:vunmap q<C-[>><:nunmap q<Esc>><:punmap q<Esc>><:vunmap q<Esc>><startRecording>
+vmap q<Any> <:nunmap q<Any>><:punmap q<Any>><:vunmap q<Any>><:nunmap q<C-[>><:punmap q<C-[>><:vunmap q<C-[>><:nunmap q<Esc>><:punmap q<Esc>><:vunmap q<Esc>><startRecording>
+nmap q<C-[> <nop>
+pmap q<C-[> <nop>
+vmap q<C-[> <nop>
+nmap q<Esc> <nop>
+pmap q<Esc> <nop>
+vmap q<Esc> <nop>
+nmap q<Any> <:nunmap q<Any>><:punmap q<Any>><:vunmap q<Any>><:nunmap q<C-[>><:punmap q<C-[>><:vunmap q<C-[>><:nunmap q<Esc>><:punmap q<Esc>><:vunmap q<Esc>><startRecording>
+pmap q<Any> <:nunmap q<Any>><:punmap q<Any>><:vunmap q<Any>><:nunmap q<C-[>><:punmap q<C-[>><:vunmap q<C-[>><:nunmap q<Esc>><:punmap q<Esc>><:vunmap q<Esc>><startRecording>
+vmap q<Any> <:nunmap q<Any>><:punmap q<Any>><:vunmap q<Any>><:nunmap q<C-[>><:punmap q<C-[>><:vunmap q<C-[>><:nunmap q<Esc>><:punmap q<Esc>><:vunmap q<Esc>><startRecording>
+nmap q<C-[> <nop>
+pmap q<C-[> <nop>
+vmap q<C-[> <nop>
+nmap q<Esc> <nop>
+pmap q<Esc> <nop>
+vmap q<Esc> <nop>
+nmap q<Any> <:nunmap q<Any>><:punmap q<Any>><:vunmap q<Any>><:nunmap q<C-[>><:punmap q<C-[>><:vunmap q<C-[>><:nunmap q<Esc>><:punmap q<Esc>><:vunmap q<Esc>><startRecording>
+pmap q<Any> <:nunmap q<Any>><:punmap q<Any>><:vunmap q<Any>><:nunmap q<C-[>><:punmap q<C-[>><:vunmap q<C-[>><:nunmap q<Esc>><:punmap q<Esc>><:vunmap q<Esc>><startRecording>
+vmap q<Any> <:nunmap q<Any>><:punmap q<Any>><:vunmap q<Any>><:nunmap q<C-[>><:punmap q<C-[>><:vunmap q<C-[>><:nunmap q<Esc>><:punmap q<Esc>><:vunmap q<Esc>><startRecording>
+nmap q<C-[> <nop>
+pmap q<C-[> <nop>
+vmap q<C-[> <nop>
+nmap q<Esc> <nop>
+pmap q<Esc> <nop>
+vmap q<Esc> <nop>
+set all
+set shell=fish
+quitall
+set all
+set showcmd
+set shell=fish
+set showcmd?
+quitall
+set showcmd?
+set shell?
+quitall
+colorscheme catppuccin
+tabnew
+close
+quitall
+close
+colorscheme compact
+tabnew
+close
+quitall
+colorscheme light-catppuccin
+colorscheme paper
+colorscheme verticaltabsright
+tabnew
+close
+tabnew
+close
+scriptnames?
+scriptnames
+quitall
+close
+set searchengine=["https://duckduckgo.com/?kae=d&kav=1&ko=1&q=%s&ia=web"]
+quitall
+set searchengine?
+quitall
+close
+set all
+tabnew
+close
+quitall
+explore
+set menupage?
+gmail
+quitall
+tabnew
+close
+quitall
+close
+pin
+close
+tabnew
+close
+pin 0
+close
+tabnewcontainer
+tabnew
+close
+cookies!
+close
+quitall
+colorscheme verticaltabs
+colorscheme totalblack
+colorscheme verticaltabsright
+tabnew
+close
+quitall
+close
+quitall
+close
+quitall
+tabnew
+close
+tabnew
+close
+quitall
+tabnew
+close
+quitall
+tabnew
+close
+tabnew
+close
+tabnew
+close
+tabnew
+close
+tabnew
+quitall
+tabnew
+close
+tabnew
+cookies!
+cookies
+cookies!
+close
+tabnew
+write
+close
+quitall
+close
+tabnew
+close
+tabnew
+quitall
+close
+quitall
+close
+quitall
+tabnew
+close
+tabnew
+close
+quitall
+close
+quitall
+tabnew
+close
+quitall
+tabnew
+close
+tabnew
+quitall
+tabnew
+quitall
+tabnew
+quitall
+tabnew
+history
+close
+quitall
+tabnew
+close
+quitall
+close
+tabnew
+quitall
+tabnew
+quitall
+tabnew
+quitall
+tabnew
+quitall
+close
+tabnew
+close
+quitall
+tabnew
+quitall
+tabnew
+quitall
+close
+quitall
+tabnew
+close
+tabnew
+close
+tabnew
+quitall
+tabnew
+quitall
+close
+tabnew
+close
+quitall
+tabnew
+set adblockernotifications?
+close
+tabnew
+close
+tabnew
+close
+quitall
+tabnew
+close
+quitall
+close
+quitall
+close
+quitall
+close
+quitall
+tabnew
+quitall
+tabnew
+close
+quitall
+tabnew
+close
+tabnew
+help
+close
+tabnew
+close
+tabnew
+close
+tabnew
+quitall
+close
+tabnew
+quitall
+tabnew
+quitall
+tabnew
+close
+quitall
+tabnew
+close
+tabnew
+buffer 1
+tabnew
+close
+tabnew
+close
+tabnew
+close
+tabnew
+quitall
+tabnew
+close
+tabnew
+close
+tabnew
+close
+tabnew
+quitall
+close
+quitall
+tabnew
+close
+tabnew
+close
+tabnew
+close
+tabnew
+close
+tabnew
+quitall
+close
+tabnew
+close
+tabnew
+quitall
+close
+tabnew
+quitall
+tabnew
+close
+tabnew
+quitall
+tabnew
+quitall
+tabnew
+close
+tabnew
+close
+tabnew
+close
+quitall
+tabnew
+close
+quitall
+close
+tabnew
+close
+tabnew
+close
+tabnew
+close
+tabnew
+close
+tabnew
+quitall
+tabnew
+close
+tabnew
+close
+tabnew
+close
+quitall
+tabnew
+history
+close
+tabnew
+quitall
+tabnew
+quitall
+tabnew
+quitall
+tabnew
+quitall
+close
+tabnew

@@ -1,0 +1,63 @@
+2026-05-01 23:19:27.041 [info] Started local extension host with pid 923434.
+2026-05-01 23:19:27.947 [error] Canceled: Canceled
+    at QI (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:383:1431)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4953:47399
+    at Array.forEach (<anonymous>)
+    at a.dispose (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4953:47307)
+    at b1.dispose (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4953:60606)
+    at aGi.dispose (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4960:10470)
+    at sGi.stopAllInReverse (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4960:9610)
+    at async cht._doStopExtensionHosts (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4959:22375)
+2026-05-01 23:19:27.948 [error] Canceled: Canceled
+    at QI (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:383:1431)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4953:47399
+    at Array.forEach (<anonymous>)
+    at a.dispose (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4953:47307)
+    at b1.dispose (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4953:60606)
+    at aGi.dispose (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4960:10470)
+    at sGi.stopAllInReverse (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4960:9610)
+    at async cht._doStopExtensionHosts (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4959:22375)
+2026-05-01 23:19:27.948 [error] Canceled: Canceled
+    at QI (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:383:1431)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4953:47399
+    at Array.forEach (<anonymous>)
+    at a.dispose (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4953:47307)
+    at b1.dispose (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4953:60606)
+    at aGi.dispose (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4960:10470)
+    at sGi.stopAllInReverse (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4960:9610)
+    at async cht._doStopExtensionHosts (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4959:22375)
+2026-05-01 23:19:27.949 [warning] [DefaultAccount] Attempt 1 to get sessions failed: Canceled
+2026-05-01 23:19:27.950 [error] Canceled: Canceled
+    at new FXt (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4953:45716)
+    at a._remoteCall (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4953:51804)
+    at n.<computed>.r.charCodeAt.n.<computed> (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4953:48590)
+    at WOt.getSessions (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1070:78777)
+    at sJe.getSessions (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1070:75368)
+    at sJe.getAccounts (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1070:74602)
+    at rJe._addExtensionsToCache (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1070:68552)
+    at Object.factory (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1070:67605)
+    at Lh.consume (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:406:77124)
+    at Lh.consumed (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:406:77333)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:406:77166
+2026-05-01 23:19:27.954 [error] Canceled: Canceled
+    at new FXt (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4953:45716)
+    at a._remoteCall (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4953:51804)
+    at n.<computed>.r.charCodeAt.n.<computed> (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4953:48590)
+    at WOt.getSessions (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1070:78777)
+    at sJe.getSessions (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1070:75368)
+    at VH.addAccountsFromProvider (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1696:38758)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1696:35351
+    at Array.map (<anonymous>)
+    at VH.doInitialize (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1696:35339)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1696:35209
+2026-05-01 23:19:27.955 [error] Canceled: Canceled
+    at new FXt (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4953:45716)
+    at a._remoteCall (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4953:51804)
+    at n.<computed>.r.charCodeAt.n.<computed> (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4953:48590)
+    at WOt.getSessions (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1070:78777)
+    at sJe.getSessions (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1070:75368)
+    at VH.addAccountsFromProvider (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1696:38758)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1696:35351
+    at Array.map (<anonymous>)
+    at VH.doInitialize (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1696:35339)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1696:35209

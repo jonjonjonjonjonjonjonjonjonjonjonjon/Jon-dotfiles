@@ -1,0 +1,9 @@
+[Default Applications]
+text/plain=code-oss.desktop
+application/xhtml+xml=vieb.desktop
+x-scheme-handler/http=vieb.desktop
+x-scheme-handler/https=vieb.desktop
+
+[Added Associations]
+text/plain=code-oss.desktop;
+application/xhtml+xml=vieb.desktop;

@@ -1,0 +1,179 @@
+00:00:00.000176 main     VirtualBox XPCOM Server 7.2.6 r172322 linux.amd64 (Jan 28 2026 17:11:43) release log
+00:00:00.000178 main     Log opened 2026-03-14T14:49:34.374850000Z
+00:00:00.000179 main     Build Type: release
+00:00:00.000181 main     OS Product: Linux
+00:00:00.000182 main     OS Release: 6.18.17-1-lts
+00:00:00.000183 main     OS Version: #1 SMP PREEMPT_DYNAMIC Thu, 12 Mar 2026 14:46:13 +0000
+00:00:00.000205 main     DMI Product Name: HP Z440 Workstation
+00:00:00.000214 main     DMI Product Version: 
+00:00:00.000220 main     Firmware type: UEFI
+00:00:00.000629 main     Secure Boot: Disabled
+00:00:00.000664 main     Host RAM: 64206MB (62.7GB) total, 62161MB (60.7GB) available
+00:00:00.000667 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.000667 main     Process ID: 125579
+00:00:00.000668 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.007491 main     IPC socket path: /tmp/.vbox-hp-ipc/ipcd
+00:00:00.009987 DCon01   VirtualBox: object creation starts
+00:00:00.010107 DCon01   Home directory: '/home/hp/.config/VirtualBox'
+00:00:00.011080 DCon01   HostDnsMonitor: initializing
+00:00:00.011340 DCon01   NAT: resolv.conf: nameserver 192.168.1.254
+00:00:00.011348 DCon01   NAT: resolv.conf: nameserver 2001:8a0:7286:aa00::1
+00:00:00.011362 DCon01   HostDnsMonitor: updating information
+00:00:00.011377 DCon01   HostDnsMonitor: old information
+00:00:00.011379 DCon01     no server entries
+00:00:00.011381 DCon01     no domain set
+00:00:00.011383 DCon01     no search string entries
+00:00:00.011385 DCon01   HostDnsMonitor: new information
+00:00:00.011387 DCon01     server 1: 192.168.1.254
+00:00:00.011389 DCon01     server 2: 2001:8a0:7286:aa00::1
+00:00:00.011391 DCon01     domain: Home
+00:00:00.011393 DCon01     search string 1: Home
+00:00:00.013275 DCon01   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:00.013425 DCon01   VD: VDInit finished with VINF_SUCCESS
+00:00:00.013539 DCon01   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={925084b0-625f-422f-a67d-0ede1880a56c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.014784 DCon01   VirtualBox: object created
+00:00:00.746265 DCon03   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=false aResultDetail=0
+00:00:01.054193 DCon03   Saving settings file "/home/hp/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:01.056734 DCon03   Finished saving settings file "/home/hp/.config/VirtualBox/VirtualBox.xml"
+00:00:01.921310 DCon03   Saving settings file "/home/hp/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:01.925607 DCon03   Finished saving settings file "/home/hp/.config/VirtualBox/VirtualBox.xml"
+00:00:03.468340 DCon01   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={925084b0-625f-422f-a67d-0ede1880a56c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:04.027068 DCon01   Saving settings file "/home/hp/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:04.031645 DCon01   Finished saving settings file "/home/hp/.config/VirtualBox/VirtualBox.xml"
+00:00:19.921282 DCon03   Saving settings file "/home/hp/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:19.923758 DCon03   Finished saving settings file "/home/hp/.config/VirtualBox/VirtualBox.xml"
+00:00:19.927074 DCon02   Saving settings file "/home/hp/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:19.929436 DCon02   Finished saving settings file "/home/hp/.config/VirtualBox/VirtualBox.xml"
+00:02:52.528363 createBase Saving settings file "/home/hp/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:02:52.535957 createBase Finished saving settings file "/home/hp/.config/VirtualBox/VirtualBox.xml"
+00:02:52.544083 DCon01   Platform architecture set to 'x86'
+00:02:52.544372 DCon01   Platform architecture set to 'x86'
+00:02:52.544393 DCon01   Platform architecture set to 'x86'
+00:02:52.544959 DCon01   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:02:52.545013 DCon01   Platform architecture set to 'x86'
+00:02:52.551185 DCon01   Saving settings file "/home/hp/VirtualBox VMs/windows 11/windows 11.vbox" with version "1.19-linux"
+00:02:52.568373 DCon01   Finished saving settings file "/home/hp/VirtualBox VMs/windows 11/windows 11.vbox"
+00:02:52.568532 DCon01   Saving settings file "/home/hp/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:02:52.571486 DCon01   Finished saving settings file "/home/hp/.config/VirtualBox/VirtualBox.xml"
+00:02:52.573021 DCon07   Platform architecture set to 'x86'
+00:02:52.575826 DCon07   Saving settings file "/home/hp/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:02:52.578392 DCon07   Finished saving settings file "/home/hp/.config/VirtualBox/VirtualBox.xml"
+00:02:52.578894 DCon07   Saving settings file "/home/hp/VirtualBox VMs/windows 11/windows 11.vbox" with version "1.19-linux"
+00:02:52.581300 DCon07   Finished saving settings file "/home/hp/VirtualBox VMs/windows 11/windows 11.vbox"
+00:02:52.583754 DCon06   Saving settings file "/home/hp/VirtualBox VMs/windows 11/windows 11.vbox" with version "1.19-linux"
+00:02:52.586615 DCon06   Finished saving settings file "/home/hp/VirtualBox VMs/windows 11/windows 11.vbox"
+00:02:52.587282 DCon06   Saving settings file "/home/hp/VirtualBox VMs/windows 11/windows 11.vbox" with version "1.19-linux"
+00:02:52.590149 DCon06   Finished saving settings file "/home/hp/VirtualBox VMs/windows 11/windows 11.vbox"
+00:02:52.595216 DCon07   UnattendedInstaller::initInstaller: UnattendedInstaller::savePassedData(): 
+00:02:52.601708 DCon07   Platform architecture set to 'x86'
+00:02:52.602398 DCon07   Saving settings file "/home/hp/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:02:52.605116 DCon07   Finished saving settings file "/home/hp/.config/VirtualBox/VirtualBox.xml"
+00:02:52.605259 DCon07   Saving settings file "/home/hp/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:02:52.607932 DCon07   Finished saving settings file "/home/hp/.config/VirtualBox/VirtualBox.xml"
+00:02:52.608154 DCon07   Saving settings file "/home/hp/VirtualBox VMs/windows 11/windows 11.vbox" with version "1.19-linux"
+00:02:52.610917 DCon07   Finished saving settings file "/home/hp/VirtualBox VMs/windows 11/windows 11.vbox"
+00:02:52.614481 DCon06   Launched VM: 536907664 pid: 125648 (0x1ead0) frontend: GUI/Qt name: windows 11
+00:02:52.711552 DCon10   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:02:52.762182 DCon10   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:02:53.038731 DCon05   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:02:53.039987 DCon10   Saving settings file "/home/hp/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:02:53.040371 DCon05   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:02:53.044288 DCon10   Finished saving settings file "/home/hp/.config/VirtualBox/VirtualBox.xml"
+00:02:53.114967 Watcher  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The virtual machine 'windows 11' has terminated unexpectedly during startup with exit code 1 (0x1)}, preserve=false aResultDetail=0
+00:02:53.198017 DCon10   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:02:53.270576 DCon10   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:02:53.271704 DCon10   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:03:06.065990 DCon12   Saving settings file "/home/hp/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:03:06.070496 DCon12   Finished saving settings file "/home/hp/.config/VirtualBox/VirtualBox.xml"
+00:03:50.565483 DCon08   Launched VM: 2754545216 pid: 125716 (0x1eb14) frontend: GUI/Qt name: windows 11
+00:03:50.653118 DCon14   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:03:50.766160 DCon14   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:03:50.767981 DCon14   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:03:51.066132 Watcher  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The virtual machine 'windows 11' has terminated unexpectedly during startup with exit code 1 (0x1)}, preserve=false aResultDetail=0
+00:03:51.170832 DCon14   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:03:51.267216 DCon14   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:03:51.268754 DCon14   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:03:53.139403 DCon14   Saving settings file "/home/hp/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:03:53.144285 DCon14   Finished saving settings file "/home/hp/.config/VirtualBox/VirtualBox.xml"
+00:04:29.207248 DCon18   Launched VM: 402835312 pid: 125777 (0x1eb51) frontend: GUI/Qt name: windows 11
+00:04:29.295187 DCon20   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:04:29.398211 DCon20   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:04:29.399752 DCon20   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:04:29.707807 Watcher  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The virtual machine 'windows 11' has terminated unexpectedly during startup with exit code 1 (0x1)}, preserve=false aResultDetail=0
+00:04:29.835904 DCon20   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:04:29.931946 DCon20   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:04:29.933412 DCon20   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:14:31.154349 DCon46   Saving settings file "/home/hp/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:14:31.159013 DCon46   Finished saving settings file "/home/hp/.config/VirtualBox/VirtualBox.xml"
+00:14:35.806397 DCon42   Saving settings file "/home/hp/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:14:35.830220 DCon42   Finished saving settings file "/home/hp/.config/VirtualBox/VirtualBox.xml"
+00:14:36.520405 DCon47   Saving settings file "/home/hp/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:14:36.524852 DCon47   Finished saving settings file "/home/hp/.config/VirtualBox/VirtualBox.xml"
+00:14:36.581017 DCon47   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:14:36.582622 DCon47   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=false aResultDetail=0
+00:14:36.621927 DCon47   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:14:36.835190 DCon47   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:14:36.836714 DCon47   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:14:38.521111 DCon47   Launched VM: 2754528192 pid: 186781 (0x2d99d) frontend: GUI/Qt name: windows 11
+00:14:38.609620 DCon30   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:14:38.714891 DCon30   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:14:38.716450 DCon30   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:14:39.021612 Watcher  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The virtual machine 'windows 11' has terminated unexpectedly during startup with exit code 1 (0x1)}, preserve=false aResultDetail=0
+00:14:39.127793 DCon42   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:14:39.225981 DCon42   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:14:39.227452 DCon42   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:15:05.361401 DCon47   Launched VM: 536926272 pid: 186818 (0x2d9c2) frontend: GUI/Qt name: windows 11
+00:15:05.448783 DCon49   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:15:05.539757 DCon49   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:15:05.541348 DCon49   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:15:05.861844 Watcher  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The virtual machine 'windows 11' has terminated unexpectedly during startup with exit code 1 (0x1)}, preserve=false aResultDetail=0
+00:15:05.972769 DCon47   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:15:06.067066 DCon47   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:15:06.068517 DCon47   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:16:15.887051 DCon53   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:16:15.888316 DCon53   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=false aResultDetail=0
+00:16:15.922320 DCon52   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:16:16.089289 DCon52   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:16:16.090952 DCon52   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:16:16.231243 DCon52   Saving settings file "/home/hp/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:16:16.235546 DCon52   Finished saving settings file "/home/hp/.config/VirtualBox/VirtualBox.xml"
+00:16:23.796335 DCon53   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:16:23.797734 DCon53   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=false aResultDetail=0
+00:16:23.824242 DCon53   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:16:23.991418 DCon53   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:16:23.992947 DCon53   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:16:26.929549 DCon53   Launched VM: 469770640 pid: 194573 (0x2f80d) frontend: GUI/Qt name: windows 11
+00:16:27.015158 DCon51   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:16:27.016199 DCon53   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:16:27.099914 DCon53   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:16:27.101756 DCon51   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:16:27.116165 DCon53   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:16:27.117750 DCon53   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:16:27.430028 Watcher  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The virtual machine 'windows 11' has terminated unexpectedly during startup with exit code 1 (0x1)}, preserve=false aResultDetail=0
+00:16:27.499809 DCon54   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:16:27.536047 DCon54   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:16:27.595544 DCon54   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:16:27.597170 DCon54   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:16:27.629958 DCon54   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:16:27.631388 DCon54   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:16:57.687364 DCon49   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:16:57.688826 DCon49   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=false aResultDetail=0
+00:16:57.733824 DCon49   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:16:57.921950 DCon49   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:16:57.923637 DCon49   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:16:58.033661 DCon49   Saving settings file "/home/hp/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:16:58.038444 DCon49   Finished saving settings file "/home/hp/.config/VirtualBox/VirtualBox.xml"
+00:17:01.397038 DCon49   Launched VM: 402705168 pid: 197459 (0x30353) frontend: GUI/Qt name: windows 11
+00:17:01.484471 DCon55   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:17:01.588992 DCon47   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:17:01.590639 DCon47   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:17:01.897492 Watcher  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The virtual machine 'windows 11' has terminated unexpectedly during startup with exit code 1 (0x1)}, preserve=false aResultDetail=0
+00:17:02.004464 DCon47   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:17:02.103731 DCon47   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:17:02.105347 DCon47   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+01:23:30.105637 main     VirtualBox: object deletion starts
+01:23:30.105696 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Medium '/home/hp/VirtualBox VMs/windows 11/windows 11.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+01:23:30.106866 main     HostDnsMonitor: shutting down ...
+01:23:30.119740 main     HostDnsMonitor: shut down
+01:23:30.130687 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={2ce10519-3c09-45d8-a12d-e887786146b7} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+01:23:30.130783 main     VirtualBox: object deleted
