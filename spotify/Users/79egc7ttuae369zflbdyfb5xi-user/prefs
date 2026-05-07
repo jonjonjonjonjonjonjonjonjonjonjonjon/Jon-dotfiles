@@ -1,3 +1,0 @@
-connect.mdns_devices="[]"
-connect.dial_devices="[{\"address\":\"192.168.1.39\",\"app_state\":\"MISSING\",\"created_timestamp\":1774377132,\"device_id\":\"00000000-0000-0000-0000-0ccafb3b232e\",\"dial_location_url\":\"http://192.168.1.39:56790/dd.xml\",\"display_name\":\"Mediatek_MTXXXX\",\"last_seen\":1774377142,\"manufacturer\":\"MediaTek Inc.\",\"model_name\":\"Mediatek_MTXXXX\",\"product_cap\":\"\",\"public_ip\":\"2001:8a0:7286:aa00:1a60:24ff:fe7f:5afc\",\"wol\":{\"all_interfaces\":false,\"delay_ms\":250,\"mac\":\"0ccafb3b232e\",\"port\":9,\"retries\":240}}]"
-audio.play_bitrate_non_metered_migrated=true

@@ -1,6 +1,0 @@
-2026/05/07-17:06:11.893 28f2a Reusing MANIFEST /home/hp/.config/Vieb/Partitions/main/Local Storage/leveldb/MANIFEST-000001
-2026/05/07-17:06:11.893 28f2a Recovering log #777
-2026/05/07-17:06:11.893 28f2a Reusing old log /home/hp/.config/Vieb/Partitions/main/Local Storage/leveldb/000777.log 
-2026/05/07-17:14:00.580 28f29 Level-0 table #783: started
-2026/05/07-17:14:00.588 28f29 Level-0 table #783: 170283 bytes OK
-2026/05/07-17:14:00.590 28f29 Delete type=0 #777

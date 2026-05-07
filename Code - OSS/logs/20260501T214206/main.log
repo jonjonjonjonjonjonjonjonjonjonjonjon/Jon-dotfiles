@@ -1,8 +1,0 @@
-2026-05-01 21:42:06.553 [info] StorageMainService: creating application shared storage
-2026-05-01 21:42:06.555 [info] StorageMainService: creating application shared storage with local application storage fallback
-2026-05-01 21:42:06.621 [info] [shared storage] Creating shared storage database at '/home/hp/.vscode-oss-shared/sharedStorage/state.vscdb' (wasCreated: false)
-2026-05-01 21:42:06.622 [info] [shared storage] Initializing fallback application storage (type: local, path: /home/hp/.config/Code - OSS/User/globalStorage/state.vscdb)
-2026-05-01 21:42:06.638 [info] [shared storage] Fallback application storage initialized with 61 items
-2026-05-01 21:42:06.641 [info] update#setState disabled
-2026-05-01 21:42:06.641 [info] update#ctor - updates are disabled as there is no update URL
-2026-05-01 21:42:09.699 [info] Extension host with pid 775764 exited with code: 0, signal: unknown.

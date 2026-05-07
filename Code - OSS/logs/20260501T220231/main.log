@@ -1,9 +1,0 @@
-2026-05-01 22:02:31.618 [info] StorageMainService: creating application shared storage
-2026-05-01 22:02:31.620 [info] StorageMainService: creating application shared storage with local application storage fallback
-2026-05-01 22:02:31.697 [info] [shared storage] Creating shared storage database at '/home/hp/.vscode-oss-shared/sharedStorage/state.vscdb' (wasCreated: false)
-2026-05-01 22:02:31.698 [info] [shared storage] Initializing fallback application storage (type: local, path: /home/hp/.config/Code - OSS/User/globalStorage/state.vscdb)
-2026-05-01 22:02:31.714 [info] [shared storage] Fallback application storage initialized with 61 items
-2026-05-01 22:02:31.717 [info] update#setState disabled
-2026-05-01 22:02:31.717 [info] update#ctor - updates are disabled as there is no update URL
-2026-05-01 22:05:21.915 [info] Extension host with pid 834230 exited with code: 0, signal: unknown.
-2026-05-01 22:05:22.007 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 834229]: crashed with code 15 and reason 'killed'

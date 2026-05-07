@@ -1,9 +1,0 @@
-{
-  "debug-dir": "/home/hp/.local/state/clispot/logs",
-  "cache-dir": "/home/hp/.cache/clispot",
-  "disable-cache": false,
-  "yt-dlp-args": {
-    "cookies-from-browser": "firefox"
-  },
-  "skip-on-no-match": true
-}
