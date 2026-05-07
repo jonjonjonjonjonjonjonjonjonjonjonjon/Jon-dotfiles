@@ -23,3 +23,5 @@
 !eww/**
 !noctalia/
 !noctalia/**
+!jellyfin-tui/
+!jellyfin-tui/**
