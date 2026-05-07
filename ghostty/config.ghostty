@@ -3,4 +3,4 @@ font-family = Terminess Nerd Font Mono
 font-size = 15
 custom-shader = /home/hp/.config/ghostty/bettercrt.glsl
 #custom-shader = /home/hp/.config/ghostty/starfield.glsl
-background-opacity = 0.8
+background-opacity = 0
