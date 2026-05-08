@@ -221,6 +221,8 @@
                     "hidePassive": false,
                     "id": "Tray",
                     "pinned": [
+                        "nm-applet",
+                        "Nicotine+"
                     ]
                 }
             ]
