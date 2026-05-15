@@ -35,7 +35,7 @@ hl.on("hyprland.start", function()
 	hl.exec_cmd("wl-paste --watch cliphist store")
 
 	hl.exec_cmd("qs -c overview")
-	hl.exec_cmd("QT_QPA_PLATFORMTHEME=gtk3 qs -c noctalia-shell")
+	hl.exec_cmd("QT_QPA_PLATFORMTHEME=qt6ct qs -c noctalia-shell")
 
 	hl.exec_cmd("hyprpaper")
 
@@ -58,19 +58,19 @@ hl.env("LANG", "pt_PT.UTF-8")
 
 hl.config({
 
-	--plugin = {
+	plugin = {
 
-	--	hy3 = {
-	--		no_gaps_when_only = false,
-	--		node_collapse_policy = 2,
-	--		group_inset = 10,
-	--		tab_first_window = true,
-	--		tabs = {
-	--			height = 15,
-	--			padding = 5,
-	--		},
-	--	},
-	--},
+		hy3 = {
+			no_gaps_when_only = false,
+			node_collapse_policy = 2,
+			group_inset = 10,
+			tab_first_window = false,
+			tabs = {
+				height = 15,
+				padding = 0,
+			},
+		},
+	},
 	general = {
 
 		gaps_in = 5,
@@ -114,7 +114,7 @@ hl.config({
 	},
 
 	animations = {
-		enabled = false,
+		enabled = true,
 	},
 
 	dwindle = {
@@ -170,7 +170,7 @@ hl.curve("myBezier", {
 hl.animation({
 	leaf = "windows",
 	enabled = true,
-	speed = 1.5,
+	speed = 2,
 	bezier = "myBezier",
 })
 
@@ -191,15 +191,15 @@ hl.animation({
 
 hl.animation({
 	leaf = "fade",
-	enabled = true,
-	speed = 6,
+	enabled = false,
+	speed = 2,
 	bezier = "default",
 })
 
 hl.animation({
 	leaf = "workspaces",
 	enabled = true,
-	speed = 6,
+	speed = 2,
 	bezier = "default",
 })
 
@@ -222,7 +222,7 @@ hl.bind(
 	hl.dsp.exec_cmd("pkill fuzzel || cliphist list | fuzzel --dmenu | cliphist decode | wl-copy")
 )
 
---hl.bind(mainMod .. " + F", hl.dsp.fullscreen({ mode = 0 }))
+hl.bind(mainMod .. " + F", hl.dsp.window.fullscreen({ mode = 0 }))
 
 hl.bind(mainMod .. " + SPACE", hl.dsp.exec_cmd(menu .. " || pkill " .. menu))
 
@@ -231,6 +231,8 @@ hl.bind(mainMod .. " + TAB", hl.dsp.exec_cmd("qs ipc -c overview call overview t
 hl.bind(mainMod .. " + ALT + SPACE", hl.dsp.exec_cmd("vieb"))
 
 hl.bind(mainMod .. " + MINUS", hy3.change_group("opposite"))
+
+hl.bind(mainMod .. " + SHIFT + P", hl.dsp.exec_cmd("qs -c noctalia-shell ipc call sessionMenu toggle"))
 
 hl.bind(mainMod .. " + S", hy3.make_group("v"))
 hl.bind(mainMod .. " + A", hy3.make_group("h"))
@@ -273,6 +275,7 @@ hl.bind(mainMod .. " + CTRL + SHIFT + L", hl.dsp.window.move({ workspace = "e+1"
 hl.bind(mainMod .. " + CTRL + H", hl.dsp.focus({ workspace = "e-1" }))
 hl.bind(mainMod .. " + CTRL + SHIFT + H", hl.dsp.window.move({ workspace = "e-1" }))
 
+hl.bind(mainMod .. " + ALT + H", hl.dsp.window.resize({ x = 1, y = 1 }))
 --------------------------
 ---- WORKSPACE BINDS ----
 --------------------------

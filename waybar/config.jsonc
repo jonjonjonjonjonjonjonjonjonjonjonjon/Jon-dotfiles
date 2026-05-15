@@ -7,6 +7,7 @@
         "margin-bottom": 0,
         "margin-left": 10,
         "margin-right": 0,
+        "GTK_THEME": "tulasi",
         "modules-left": [
             "custom/arch",
             "hyprland/workspaces",

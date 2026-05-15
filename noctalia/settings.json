@@ -47,7 +47,7 @@
         "autoHideDelay": 500,
         "autoShowDelay": 150,
         "backgroundOpacity": 1,
-        "barType": "floating",
+        "barType": "simple",
         "capsuleColorKey": "none",
         "capsuleOpacity": 1,
         "contentPadding": 2,
@@ -59,14 +59,14 @@
         "frameThickness": 8,
         "hideOnOverview": false,
         "marginHorizontal": 0,
-        "marginVertical": 4,
-        "middleClickAction": "none",
+        "marginVertical": 0,
+        "middleClickAction": "settings",
         "middleClickCommand": "",
         "middleClickFollowMouse": false,
         "monitors": [
             "DP-3"
         ],
-        "mouseWheelAction": "none",
+        "mouseWheelAction": "workspace",
         "mouseWheelWrap": true,
         "outerCorners": true,
         "position": "top",
@@ -82,7 +82,7 @@
                 "position": "bottom"
             }
         ],
-        "showCapsule": true,
+        "showCapsule": false,
         "showOnWorkspaceSwitch": true,
         "showOutline": false,
         "useSeparateOpacity": false,
