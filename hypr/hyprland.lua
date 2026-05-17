@@ -42,6 +42,8 @@ hl.on("hyprland.start", function()
 	hl.exec_cmd("$HOME/.config/eww/scripts/start.sh")
 
 	hl.exec_cmd("hyprpm reload -n")
+
+	hl.exec_cmd("ghostty -e sudo timeshift --check")
 end)
 
 -------------------------------
@@ -217,10 +219,7 @@ hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(fileManager))
 
 hl.bind(mainMod .. " + V", hl.dsp.window.float({ action = "toggle" }))
 
-hl.bind(
-	mainMod .. " + C",
-	hl.dsp.exec_cmd("pkill fuzzel || cliphist list | fuzzel --dmenu | cliphist decode | wl-copy")
-)
+hl.bind(mainMod .. " + C", hl.dsp.exec_cmd("~/.config/fuzzel/fuzzel-cliphist.sh && pkill fuzzel"))
 
 hl.bind(mainMod .. " + F", hl.dsp.window.fullscreen({ mode = 0 }))
 
@@ -228,7 +227,9 @@ hl.bind(mainMod .. " + SPACE", hl.dsp.exec_cmd(menu .. " || pkill " .. menu))
 
 hl.bind(mainMod .. " + TAB", hl.dsp.exec_cmd("qs ipc -c overview call overview toggle"))
 
-hl.bind(mainMod .. " + ALT + SPACE", hl.dsp.exec_cmd("vieb"))
+hl.bind(mainMod .. " + ALT + SPACE", hl.dsp.exec_cmd("librewolf"))
+
+hl.bind(mainMod .. " + SHIFT + E", hl.dsp.exec_cmd("bemoji || pkill fuzzel"))
 
 hl.bind(mainMod .. " + MINUS", hy3.change_group("opposite"))
 
