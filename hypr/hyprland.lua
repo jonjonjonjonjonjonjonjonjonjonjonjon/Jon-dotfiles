@@ -258,6 +258,11 @@ hl.bind(mainMod .. " + CTRL + SHIFT + right", hl.dsp.window.move({ workspace = "
 hl.bind(mainMod .. " + CTRL + left", hl.dsp.focus({ workspace = "e-1" }))
 hl.bind(mainMod .. " + CTRL + SHIFT + left", hl.dsp.window.move({ workspace = "e-1" }))
 
+hl.bind(mainMod .. " + ALT + left", hl.dsp.window.resize({ x = 100, y = 0, relative = true }), { repeating = true })
+hl.bind(mainMod .. " + ALT + down", hl.dsp.window.resize({ x = 0, y = 100, relative = true }), { repeating = true })
+hl.bind(mainMod .. " + ALT + up", hl.dsp.window.resize({ x = 0, y = -100, relative = true }), { repeating = true })
+hl.bind(mainMod .. " + ALT + right", hl.dsp.window.resize({ x = -100, y = 0, relative = true }), { repeating = true })
+
 hl.bind(mainMod .. " + H", hy3.move_focus("l"))
 hl.bind(mainMod .. " + J", hy3.move_focus("d"))
 hl.bind(mainMod .. " + K", hy3.move_focus("u"))
@@ -276,7 +281,10 @@ hl.bind(mainMod .. " + CTRL + SHIFT + L", hl.dsp.window.move({ workspace = "e+1"
 hl.bind(mainMod .. " + CTRL + H", hl.dsp.focus({ workspace = "e-1" }))
 hl.bind(mainMod .. " + CTRL + SHIFT + H", hl.dsp.window.move({ workspace = "e-1" }))
 
-hl.bind(mainMod .. " + ALT + H", hl.dsp.window.resize({ x = 1, y = 1 }))
+hl.bind(mainMod .. " + ALT + H", hl.dsp.window.resize({ x = 100, y = 0, relative = true }), { repeating = true })
+hl.bind(mainMod .. " + ALT + J", hl.dsp.window.resize({ x = 0, y = 100, relative = true }), { repeating = true })
+hl.bind(mainMod .. " + ALT + K", hl.dsp.window.resize({ x = 0, y = -100, relative = true }), { repeating = true })
+hl.bind(mainMod .. " + ALT + L", hl.dsp.window.resize({ x = -100, y = 0, relative = true }), { repeating = true })
 --------------------------
 ---- WORKSPACE BINDS ----
 --------------------------
