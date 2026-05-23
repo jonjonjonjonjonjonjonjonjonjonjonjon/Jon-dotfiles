@@ -43,7 +43,9 @@ hl.on("hyprland.start", function()
 
 	hl.exec_cmd("hyprpm reload -n")
 
-	hl.exec_cmd("ghostty -e sudo timeshift --check")
+	hl.exec_cmd([[hyprctl dispatch "hl.dsp.workspace.toggle_special('magic')"]])
+
+	hl.exec_cmd([[hyprctl dispatch "hl.dsp.exec_cmd('ghostty -e sudo timeshift --check')"]]) --nedded to spawn in special workspace its stupid but it works
 end)
 
 -------------------------------
@@ -68,6 +70,7 @@ hl.config({
 			group_inset = 10,
 			tab_first_window = false,
 			tabs = {
+				radius = 0,
 				height = 15,
 				padding = 0,
 			},
@@ -234,6 +237,8 @@ hl.bind(mainMod .. " + SHIFT + E", hl.dsp.exec_cmd("bemoji || pkill fuzzel"))
 hl.bind(mainMod .. " + MINUS", hy3.change_group("opposite"))
 
 hl.bind(mainMod .. " + SHIFT + P", hl.dsp.exec_cmd("qs -c noctalia-shell ipc call sessionMenu toggle"))
+
+hl.bind(mainMod .. " + X", hl.dsp.exec_cmd(terminal .. " -e nvim"))
 
 hl.bind(mainMod .. " + S", hy3.make_group("v"))
 hl.bind(mainMod .. " + A", hy3.make_group("h"))
