@@ -11,13 +11,6 @@ hl.monitor({
 	scale = 1,
 })
 
-hl.monitor({
-	output = "HEADLESS-2",
-	mode = "1280x720@60",
-	position = "1140x1440",
-	scale = 1,
-})
-
 ---------------------
 ---- MY PROGRAMS ----
 ---------------------
@@ -49,9 +42,6 @@ hl.on("hyprland.start", function()
 	hl.exec_cmd("$HOME/.config/eww/scripts/start.sh")
 
 	hl.exec_cmd("hyprpm reload -n")
-
-	hl.exec_cmd("hyprctl output create headless") -- setup for extra dysplay
-	hl.exec_cmd("wayvnc --output=HEADLESS-2 0.0.0.0 5900") -- ⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️
 
 	hl.exec_cmd([[hyprctl dispatch "hl.dsp.workspace.toggle_special('magic')"]])
 
@@ -240,7 +230,7 @@ hl.bind(mainMod .. " + SPACE", hl.dsp.exec_cmd(menu .. " || pkill " .. menu))
 
 hl.bind(mainMod .. " + TAB", hl.dsp.exec_cmd("qs ipc -c overview call overview toggle"))
 
-hl.bind(mainMod .. " + ALT + SPACE", hl.dsp.exec_cmd("librewolf"))
+hl.bind(mainMod .. " + ALT + SPACE", hl.dsp.exec_cmd("qutebrowser"))
 
 hl.bind(mainMod .. " + SHIFT + E", hl.dsp.exec_cmd("bemoji || pkill fuzzel"))
 
@@ -325,14 +315,6 @@ hl.bind(
 	})
 )
 
-hl.bind(mainMod .. " + T", hl.dsp.focus({ workspace = 11 }))
-
-hl.bind(
-	mainMod .. " + SHIFT + T",
-	hl.dsp.window.move({
-		workspace = "11",
-	})
-)
 -------------------------
 ---- MOUSE BINDS ----
 -------------------------
@@ -395,9 +377,3 @@ hl.window_rule({
 
 	opacity = 0.8,
 })
-
-for i = 1, 10 do
-	hl.workspace_rule({ workspace = i, monitor = "DP-3", default = true })
-end
-
-hl.workspace_rule({ workspace = "11", monitor = "HEADLESS-2", default = true })

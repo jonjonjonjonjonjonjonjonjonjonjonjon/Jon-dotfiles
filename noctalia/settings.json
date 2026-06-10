@@ -18,7 +18,6 @@
         "ignoreMouseInput": false,
         "overviewLayer": false,
         "pinnedApps": [
-            "vieb",
             "steam",
             "net.lutris.Lutris",
             "jellyfin-tui"
@@ -37,7 +36,7 @@
         "preferredPlayer": "",
         "spectrumFrameRate": 30,
         "spectrumMirrored": true,
-        "visualizerType": "linear",
+        "visualizerType": "mirrored",
         "volumeFeedback": false,
         "volumeFeedbackSoundFile": "",
         "volumeOverdrive": false,
@@ -64,7 +63,8 @@
         "middleClickCommand": "",
         "middleClickFollowMouse": true,
         "monitors": [
-            "DP-3"
+            "DP-3",
+            "HEADLESS-2"
         ],
         "mouseWheelAction": "workspace",
         "mouseWheelWrap": true,
@@ -80,6 +80,82 @@
                 "enabled": false,
                 "name": "DP-3",
                 "position": "bottom"
+            },
+            {
+                "density": "spacious",
+                "enabled": true,
+                "name": "HEADLESS-2",
+                "position": "top",
+                "widgets": {
+                    "center": [
+                        {
+                            "compactMode": true,
+                            "hideMode": "hidden",
+                            "hideWhenIdle": false,
+                            "id": "MediaMini",
+                            "maxWidth": 1000,
+                            "panelShowAlbumArt": true,
+                            "scrollingMode": "never",
+                            "showAlbumArt": true,
+                            "showArtistFirst": true,
+                            "showProgressRing": true,
+                            "showVisualizer": true,
+                            "textColor": "none",
+                            "useFixedWidth": false,
+                            "visualizerType": "mirrored"
+                        }
+                    ],
+                    "left": [
+                        {
+                            "colorizeDistroLogo": false,
+                            "colorizeSystemIcon": "primary",
+                            "colorizeSystemText": "none",
+                            "customIconPath": "",
+                            "enableColorization": false,
+                            "icon": "noctalia",
+                            "id": "ControlCenter",
+                            "useDistroLogo": false
+                        },
+                        {
+                            "colorizeSystemIcon": "none",
+                            "colorizeSystemText": "none",
+                            "customIconPath": "",
+                            "enableColorization": false,
+                            "icon": "rocket",
+                            "iconColor": "none",
+                            "id": "Launcher",
+                            "useDistroLogo": false
+                        },
+                        {
+                            "displayMode": "onhover",
+                            "iconColor": "none",
+                            "id": "Volume",
+                            "middleClickCommand": "pwvucontrol || pavucontrol",
+                            "textColor": "none"
+                        }
+                    ],
+                    "right": [
+                        {
+                            "displayMode": "onhover",
+                            "iconColor": "none",
+                            "id": "Network",
+                            "textColor": "none"
+                        },
+                        {
+                            "displayMode": "onhover",
+                            "iconColor": "none",
+                            "id": "Bluetooth",
+                            "textColor": "none"
+                        },
+                        {
+                            "displayMode": "onhover",
+                            "iconColor": "none",
+                            "id": "Microphone",
+                            "middleClickCommand": "pwvucontrol || pavucontrol",
+                            "textColor": "none"
+                        }
+                    ]
+                }
             }
         ],
         "showCapsule": false,
@@ -191,9 +267,9 @@
                     "id": "plugin:noctalia-calculator"
                 },
                 {
-                    "compactMode": true,
+                    "compactMode": false,
                     "diskPath": "/",
-                    "iconColor": "none",
+                    "iconColor": "primary",
                     "id": "SystemMonitor",
                     "showCpuCores": false,
                     "showCpuFreq": false,
@@ -206,7 +282,7 @@
                     "showLoadAverage": false,
                     "showMemoryAsPercent": false,
                     "showMemoryUsage": true,
-                    "showNetworkStats": false,
+                    "showNetworkStats": true,
                     "showSwapUsage": false,
                     "textColor": "none",
                     "useMonospaceFont": true,
@@ -362,7 +438,7 @@
         "pinnedApps": [
         ],
         "pinnedStatic": false,
-        "position": "bottom",
+        "position": "top",
         "showDockIndicator": false,
         "showLauncherIcon": false,
         "sitOnFrame": false,
@@ -607,7 +683,7 @@
             {
                 "action": "userspaceReboot",
                 "command": "",
-                "countdownEnabled": true,
+                "countdownEnabled": false,
                 "enabled": false,
                 "keybind": ""
             }
@@ -621,7 +697,7 @@
         "batteryWarningThreshold": 20,
         "cpuCriticalThreshold": 100,
         "cpuWarningThreshold": 90,
-        "criticalColor": "",
+        "criticalColor": "#c34043",
         "diskAvailCriticalThreshold": 10,
         "diskAvailWarningThreshold": 20,
         "diskCriticalThreshold": 90,
@@ -637,7 +713,7 @@
         "tempCriticalThreshold": 90,
         "tempWarningThreshold": 80,
         "useCustomColors": false,
-        "warningColor": ""
+        "warningColor": "#7e9cd8"
     },
     "templates": {
         "activeTemplates": [
