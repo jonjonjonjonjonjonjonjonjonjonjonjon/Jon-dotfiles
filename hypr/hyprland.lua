@@ -81,11 +81,11 @@ hl.config({
 		gaps_in = 5,
 		gaps_out = 10,
 
-		border_size = 0,
+		border_size = 3,
 
 		col = {
-			active_border = "rgb(ffffff)",
-			inactive_border = "rgb(ffffff)",
+			active_border = "rgb(548A63)",
+			inactive_border = "rgb(000000)",
 		},
 
 		resize_on_border = true,
@@ -97,7 +97,7 @@ hl.config({
 
 	decoration = {
 
-		rounding = 0,
+		rounding = 20,
 
 		active_opacity = 1.0,
 		inactive_opacity = 0.8,

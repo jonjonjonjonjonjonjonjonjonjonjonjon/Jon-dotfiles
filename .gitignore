@@ -15,8 +15,6 @@
 !fish/**
 !kitty/
 !kitty/**
-!Vieb/
-!Vieb/viebrc
 !fuzzel/
 !fuzzel/**
 !eww/
@@ -27,4 +25,5 @@
 !jellyfin-tui/**
 !fastfetch/
 !fastfetch/**
-
+!qutebrowser/
+!qutebrowser/**
