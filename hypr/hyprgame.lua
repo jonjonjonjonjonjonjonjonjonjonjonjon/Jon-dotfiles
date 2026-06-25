@@ -6,7 +6,7 @@ hl.monitor({
 })
 
 hl.on("hyprland.start", function()
-	hl.exec_cmd("cartridges")
+	hl.exec_cmd("lutris")
 end)
 
 hl.env("XCURSOR_SIZE", "24")
