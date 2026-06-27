@@ -230,7 +230,7 @@ hl.bind(mainMod .. " + SPACE", hl.dsp.exec_cmd(menu .. " || pkill " .. menu))
 
 hl.bind(mainMod .. " + TAB", hl.dsp.exec_cmd("qs ipc -c overview call overview toggle"))
 
-hl.bind(mainMod .. " + ALT + SPACE", hl.dsp.exec_cmd("qutebrowser"))
+hl.bind(mainMod .. " + B", hl.dsp.exec_cmd("qutebrowser"))
 
 hl.bind(mainMod .. " + SHIFT + E", hl.dsp.exec_cmd("bemoji || pkill fuzzel"))
 
@@ -239,6 +239,8 @@ hl.bind(mainMod .. " + MINUS", hy3.change_group("opposite"))
 hl.bind(mainMod .. " + SHIFT + P", hl.dsp.exec_cmd("qs -c noctalia-shell ipc call sessionMenu toggle"))
 
 hl.bind(mainMod .. " + X", hl.dsp.exec_cmd(terminal .. " -e nvim"))
+
+hl.bind(mainMod .. " +  SHIFT + F", hl.dsp.exec_cmd("~/.config/hypr/files.sh"))
 
 hl.bind(mainMod .. " + S", hy3.make_group("v"))
 hl.bind(mainMod .. " + A", hy3.make_group("h"))
