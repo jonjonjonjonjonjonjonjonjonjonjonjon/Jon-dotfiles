@@ -13,7 +13,7 @@ c.fonts.web.size.default = 15
 
 c.url.searchengines = {
 # note - if you use duckduckgo, you can make use of its built in bangs, of which there are many! https://duckduckgo.com/bangs
-        'DEFAULT': 'https://duckduckgo.com/?q={}',
+    'DEFAULT': 'http://192.168.1.20:8087/search?engine=all&q={}',
         '!aw': 'https://wiki.archlinux.org/?search={}',
         '!apkg': 'https://archlinux.org/packages/?sort=&q={}&maintainer=&flagged=',
         '!gh': 'https://github.com/search?o=desc&q={}&s=stars',

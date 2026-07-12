@@ -15,7 +15,7 @@ hl.monitor({
 ---- MY PROGRAMS ----
 ---------------------
 
-local terminal = "GTK_IM_MODULE=simple ghostty"
+local terminal = "footclient"
 local fileManager = "nemo"
 local menu = "fuzzel"
 local mainMod = "SUPER"
@@ -27,7 +27,7 @@ local hy3 = hl.plugin.hy3
 
 hl.on("hyprland.start", function()
 	hl.exec_cmd("nm-applet")
-	hl.exec_cmd("nicotine -s")
+	hl.exec_cmd("foot -s")
 	hl.exec_cmd("/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1")
 
 	hl.exec_cmd("hyprctl setcursor Hackneyed-24px 24")
@@ -37,7 +37,7 @@ hl.on("hyprland.start", function()
 	hl.exec_cmd("qs -c overview")
 	hl.exec_cmd("QT_QPA_PLATFORMTHEME=qt6ct qs -c noctalia-shell")
 
-	hl.exec_cmd("hyprpaper")
+	hl.exec_cmd("swaybg -i ~/Pictures/Wallpapers/arch.png")
 
 	hl.exec_cmd("$HOME/.config/eww/scripts/start.sh")
 
@@ -45,7 +45,7 @@ hl.on("hyprland.start", function()
 
 	hl.exec_cmd([[hyprctl dispatch "hl.dsp.workspace.toggle_special('magic')"]])
 
-	hl.exec_cmd([[hyprctl dispatch "hl.dsp.exec_cmd('ghostty -e sudo timeshift --check')"]]) --nedded to spawn in special workspace its stupid but it works
+	hl.exec_cmd([[hyprctl dispatch "hl.dsp.exec_cmd('foot sudo timeshift --check')"]]) --nedded to spawn in special workspace its stupid but it works
 end)
 
 -------------------------------
@@ -97,7 +97,7 @@ hl.config({
 
 	decoration = {
 
-		rounding = 20,
+		rounding = 0,
 
 		active_opacity = 1.0,
 		inactive_opacity = 0.8,
@@ -374,8 +374,17 @@ hl.layer_rule({
 hl.window_rule({
 
 	match = {
-		class = "com.mitchellh.ghostty",
+		class = "footclient",
 	},
 
 	opacity = 0.8,
+})
+
+hl.window_rule({
+
+	match = {
+		title = "nvim.*",
+	},
+
+	opacity = 1,
 })

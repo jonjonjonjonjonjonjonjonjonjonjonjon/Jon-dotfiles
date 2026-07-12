@@ -27,3 +27,5 @@
 !fastfetch/**
 !qutebrowser/
 !qutebrowser/**
+!foot/
+!foot/**
