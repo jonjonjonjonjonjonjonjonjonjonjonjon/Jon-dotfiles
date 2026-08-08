@@ -46,10 +46,13 @@
 ;   )
 ; )
 
-(defwidget clock []
+(defwidget clock1 []
   (box :class "clock"
     (label :text time)))
 
+(defwidget clock2 []
+  (box :class "clock"
+    (label :text time)))
 
 (defwidget powermenu []
   (box :height "200" :width "680" :halign "center" :valign "center" :class "userinfo-parent"

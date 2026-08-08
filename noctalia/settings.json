@@ -64,7 +64,8 @@
         "middleClickFollowMouse": true,
         "monitors": [
             "DP-3",
-            "HEADLESS-2"
+            "HEADLESS-2",
+            "HDMI-A-1"
         ],
         "mouseWheelAction": "workspace",
         "mouseWheelWrap": true,
@@ -156,6 +157,11 @@
                         }
                     ]
                 }
+            },
+            {
+                "enabled": true,
+                "name": "HDMI-A-1",
+                "position": "bottom"
             }
         ],
         "showCapsule": false,
@@ -187,22 +193,6 @@
                     "useDistroLogo": false
                 },
                 {
-                    "compactMode": false,
-                    "hideMode": "hidden",
-                    "hideWhenIdle": false,
-                    "id": "MediaMini",
-                    "maxWidth": 145,
-                    "panelShowAlbumArt": true,
-                    "scrollingMode": "hover",
-                    "showAlbumArt": true,
-                    "showArtistFirst": true,
-                    "showProgressRing": true,
-                    "showVisualizer": false,
-                    "textColor": "none",
-                    "useFixedWidth": false,
-                    "visualizerType": "linear"
-                },
-                {
                     "characterCount": 2,
                     "colorizeIcons": false,
                     "emptyColor": "secondary",
@@ -224,14 +214,20 @@
                     "unfocusedIconsOpacity": 1
                 },
                 {
-                    "colorizeSystemIcon": "none",
-                    "colorizeSystemText": "none",
-                    "customIconPath": "",
-                    "enableColorization": false,
-                    "icon": "rocket",
-                    "iconColor": "none",
-                    "id": "Launcher",
-                    "useDistroLogo": false
+                    "compactMode": false,
+                    "hideMode": "hidden",
+                    "hideWhenIdle": false,
+                    "id": "MediaMini",
+                    "maxWidth": 145,
+                    "panelShowAlbumArt": true,
+                    "scrollingMode": "hover",
+                    "showAlbumArt": true,
+                    "showArtistFirst": true,
+                    "showProgressRing": true,
+                    "showVisualizer": false,
+                    "textColor": "none",
+                    "useFixedWidth": false,
+                    "visualizerType": "linear"
                 }
             ],
             "right": [
@@ -260,6 +256,18 @@
                     "textColor": "none"
                 },
                 {
+                    "displayMode": "onhover",
+                    "iconColor": "none",
+                    "id": "Bluetooth",
+                    "textColor": "none"
+                },
+                {
+                    "displayMode": "onhover",
+                    "iconColor": "none",
+                    "id": "Network",
+                    "textColor": "none"
+                },
+                {
                     "defaultSettings": {
                         "precision": 8,
                         "showBarValue": true
@@ -267,9 +275,9 @@
                     "id": "plugin:noctalia-calculator"
                 },
                 {
-                    "compactMode": false,
+                    "compactMode": true,
                     "diskPath": "/",
-                    "iconColor": "primary",
+                    "iconColor": "tertiary",
                     "id": "SystemMonitor",
                     "showCpuCores": false,
                     "showCpuFreq": false,
@@ -293,7 +301,7 @@
                     ],
                     "chevronColor": "none",
                     "colorizeIcons": false,
-                    "drawerEnabled": true,
+                    "drawerEnabled": false,
                     "hidePassive": false,
                     "id": "Tray",
                     "pinned": [
@@ -333,7 +341,7 @@
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
         "monitorForColors": "",
-        "predefinedScheme": "Kanagawa",
+        "predefinedScheme": "Occult Umbral",
         "schedulingMode": "off",
         "syncGsettings": true,
         "useWallpaperColors": false
@@ -436,6 +444,7 @@
         ],
         "onlySameOutput": true,
         "pinnedApps": [
+            "footclient"
         ],
         "pinnedStatic": false,
         "position": "top",

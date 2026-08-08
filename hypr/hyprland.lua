@@ -7,10 +7,16 @@
 hl.monitor({
 	output = "DP-3",
 	mode = "3440x1440@180",
-	position = "0x0",
+	position = "0x1080",
 	scale = 1,
 })
 
+hl.monitor({
+	output = "HDMI-A-1",
+	mode = "1920x1080@60.00Hz",
+	position = "0x0",
+	scale = 1,
+})
 ---------------------
 ---- MY PROGRAMS ----
 ---------------------
@@ -25,8 +31,12 @@ local hy3 = hl.plugin.hy3
 ---- AUTOSTART ----
 -------------------
 
+hl.workspace_rule({
+	workspace = 1,
+	monitor = "DP-3", -- Change to your first monitor name
+})
+
 hl.on("hyprland.start", function()
-	hl.exec_cmd("nm-applet")
 	hl.exec_cmd("foot -s")
 	hl.exec_cmd("/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1")
 
@@ -37,14 +47,15 @@ hl.on("hyprland.start", function()
 	hl.exec_cmd("qs -c overview")
 	hl.exec_cmd("QT_QPA_PLATFORMTHEME=qt6ct qs -c noctalia-shell")
 
-	hl.exec_cmd("swaybg -i ~/Pictures/Wallpapers/arch.png")
+	hl.exec_cmd("swaybg -o 'DP-3' -i ~/Pictures/Wallpapers/vampire-blood.png")
+	hl.exec_cmd("swaybg -o 'HDMI-A-1' -i ~/Pictures/Wallpapers/Traveller.jpg")
 
 	hl.exec_cmd("$HOME/.config/eww/scripts/start.sh")
 
 	hl.exec_cmd("hyprpm reload -n")
 
+	hl.exec_cmd([[hyprctl dispatch "hl.dsp.focus({ workspace = 1 })"]])
 	hl.exec_cmd([[hyprctl dispatch "hl.dsp.workspace.toggle_special('magic')"]])
-
 	hl.exec_cmd([[hyprctl dispatch "hl.dsp.exec_cmd('foot sudo timeshift --check')"]]) --nedded to spawn in special workspace its stupid but it works
 end)
 
@@ -84,7 +95,7 @@ hl.config({
 		border_size = 3,
 
 		col = {
-			active_border = "rgb(548A63)",
+			active_border = "rgb(8B2E2E)",
 			inactive_border = "rgb(000000)",
 		},
 
@@ -292,16 +303,21 @@ hl.bind(mainMod .. " + ALT + H", hl.dsp.window.resize({ x = 100, y = 0, relative
 hl.bind(mainMod .. " + ALT + J", hl.dsp.window.resize({ x = 0, y = 100, relative = true }), { repeating = true })
 hl.bind(mainMod .. " + ALT + K", hl.dsp.window.resize({ x = 0, y = -100, relative = true }), { repeating = true })
 hl.bind(mainMod .. " + ALT + L", hl.dsp.window.resize({ x = -100, y = 0, relative = true }), { repeating = true })
+
 --------------------------
 ---- WORKSPACE BINDS ----
 --------------------------
 
 for i = 1, 10 do
 	local key = i % 10
-
 	hl.bind(mainMod .. " + " .. key, hl.dsp.focus({ workspace = i }))
-
 	hl.bind(mainMod .. " + SHIFT + " .. key, hl.dsp.window.move({ workspace = i }))
+end
+
+for i = 1, 10 do
+	local key = i % 10
+	hl.bind(mainMod .. " + CTRL + " .. key, hl.dsp.focus({ workspace = i + 10 }))
+	hl.bind(mainMod .. " + CTRL + SHIFT + " .. key, hl.dsp.window.move({ workspace = i + 10 }))
 end
 
 ------------------------
@@ -355,6 +371,7 @@ hl.layer_rule({
 
 	blur = true,
 	ignore_alpha = 0.5,
+	no_anim = true,
 })
 
 hl.layer_rule({
@@ -364,27 +381,42 @@ hl.layer_rule({
 	},
 
 	blur = true,
-	ignore_alpha = 0.5,
+	ignore_alpha = 1,
 })
 
 ----------------------------
 ---- WINDOW RULES ----
 ----------------------------
 
-hl.window_rule({
+--hl.window_rule({
+--
+--	match = {
+--		class = "footclient",
+--	},
+--})
+--
+--hl.window_rule({
+--
+--	match = {
+--		title = "nvim.*",
+--	},
+--
+--	opacity = 1,
+--})
+----------------------------
+----- WORKSPACE RULES ------
+----------------------------
 
-	match = {
-		class = "footclient",
-	},
+for i = 1, 10 do
+	hl.workspace_rule({
+		workspace = i,
+		monitor = "DP-3",
+	})
+end
 
-	opacity = 0.8,
-})
-
-hl.window_rule({
-
-	match = {
-		title = "nvim.*",
-	},
-
-	opacity = 1,
-})
+for i = 11, 20 do
+	hl.workspace_rule({
+		workspace = i,
+		monitor = "HDMI-A-1",
+	})
+end
