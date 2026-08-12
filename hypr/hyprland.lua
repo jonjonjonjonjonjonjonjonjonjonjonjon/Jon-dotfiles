@@ -391,8 +391,10 @@ hl.layer_rule({
 --hl.window_rule({
 --
 --	match = {
---		class = "footclient",
+--		class = "foot",
 --	},
+--
+--	opacity = 0.8,
 --})
 --
 --hl.window_rule({
