@@ -6,5 +6,5 @@
 
 config_version: 2
 settings:
-  content.javascript.clipboard:
-    https://pendrivelinux.com: access-paste
+  content.notifications.enabled:
+    https://www.chess.com: false
