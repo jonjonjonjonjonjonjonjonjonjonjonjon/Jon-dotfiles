@@ -15,7 +15,7 @@ oh-my-posh init fish --config $HOME/.config/OhMyPosh/half-life.omp.json | source
 set -gx mask_char '*'
 set PATH ~/.local/bin/:$PATH
 
-alias v nvim
+alias v vis
 alias t tmux
 alias ta "tmux attach"
 alias tk "tmux kill-session"

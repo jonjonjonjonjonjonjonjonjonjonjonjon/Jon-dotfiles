@@ -25,7 +25,7 @@ end)
 
 -- plugins --
 -- modal
---local modal = require('plugins/vis-modal')
+-- local modal = require("plugins/vis-modal")
 -- vis-autoclose
 local autoclose = require("plugins/vis-autoclose")
 -- colorizer
