@@ -13,6 +13,7 @@ set fish_greeting "
 set -g fish_key_bindings fish_vi_key_bindings
 oh-my-posh init fish --config $HOME/.config/OhMyPosh/half-life.omp.json | source
 set -gx mask_char '*'
+set PATH ~/.local/bin/:$PATH
 
 alias v nvim
 alias t tmux

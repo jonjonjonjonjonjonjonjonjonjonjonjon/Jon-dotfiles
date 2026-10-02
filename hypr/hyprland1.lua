@@ -47,7 +47,7 @@ hl.on("hyprland.start", function()
 	hl.exec_cmd("qs -c overview")
 	hl.exec_cmd("QT_QPA_PLATFORMTHEME=qt6ct qs -c noctalia-shell")
 
-	hl.exec_cmd("swaybg -o 'DP-3' -i ~/Pictures/Wallpapers/vampire-blood.png")
+	hl.exec_cmd("swaybg -o 'DP-3' -i ~/Pictures/Wallpapers/acid-spill")
 	hl.exec_cmd("swaybg -o 'HDMI-A-1' -i ~/Pictures/Wallpapers/Traveller.jpg")
 
 	hl.exec_cmd("$HOME/.config/eww/scripts/start.sh")
@@ -95,7 +95,7 @@ hl.config({
 		border_size = 3,
 
 		col = {
-			active_border = "rgb(8B2E2E)",
+			active_border = "rgb(00FFAA)",
 			inactive_border = "rgb(000000)",
 		},
 
