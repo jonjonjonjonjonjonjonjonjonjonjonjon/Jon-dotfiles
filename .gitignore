@@ -21,8 +21,6 @@
 !eww/**
 !noctalia/
 !noctalia/**
-!jellyfin-tui/
-!jellyfin-tui/**
 !fastfetch/
 !fastfetch/**
 !qutebrowser/
