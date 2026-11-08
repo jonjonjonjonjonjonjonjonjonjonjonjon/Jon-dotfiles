@@ -48,7 +48,7 @@
     :y "50px" 
     :width "500px"
     :height "50px"
-    :anchor "bottom right")
+    :anchor "top center")
   (clock1))
 
 (defwindow clock2

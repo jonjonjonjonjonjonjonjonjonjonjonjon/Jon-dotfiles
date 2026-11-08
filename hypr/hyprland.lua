@@ -45,12 +45,15 @@ hl.on("hyprland.start", function()
 	hl.exec_cmd("wl-paste --watch cliphist store")
 
 	hl.exec_cmd("qs -c overview")
-	hl.exec_cmd("QT_QPA_PLATFORMTHEME=qt6ct qs -c noctalia-shell")
+	hl.exec_cmd("qs")
 
-	hl.exec_cmd("swaybg -o 'DP-3' -i ~/Pictures/Wallpapers/vampire-blood.png")
+	hl.exec_cmd("swaybg -o 'DP-3' -i ~/Pictures/Wallpapers/skull.png")
 	hl.exec_cmd("swaybg -o 'HDMI-A-1' -i ~/Pictures/Wallpapers/Traveller.jpg")
 
 	hl.exec_cmd("$HOME/.config/eww/scripts/start.sh")
+
+	hl.exec_cmd("blueman-applet & disown")
+	hl.exec_cmd("nm-applet & disown")
 
 	hl.exec_cmd("hyprpm reload -n")
 
@@ -95,7 +98,7 @@ hl.config({
 		border_size = 3,
 
 		col = {
-			active_border = "rgb(8B2E2E)",
+			active_border = { colors = {"#89c559", "#7159c5"}, angle = 45 },
 			inactive_border = "rgb(000000)",
 		},
 
@@ -116,7 +119,7 @@ hl.config({
 		shadow = {
 			enabled = true,
 			range = 16,
-			render_power = 5,
+			render_power = 4,
 			color = "rgba(00000000)",
 		},
 
@@ -249,7 +252,7 @@ hl.bind(mainMod .. " + SHIFT + E", hl.dsp.exec_cmd("bemoji || pkill fuzzel"))
 
 hl.bind(mainMod .. " + MINUS", hy3.change_group("opposite"))
 
-hl.bind(mainMod .. " + SHIFT + P", hl.dsp.exec_cmd("qs -c noctalia-shell ipc call sessionMenu toggle"))
+hl.bind(mainMod .. " + SHIFT + P", hl.dsp.exec_cmd("qs ipc call power toggle"))
 
 hl.bind(mainMod .. " + X", hl.dsp.exec_cmd(terminal .. " -e nvim"))
 

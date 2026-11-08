@@ -14,6 +14,8 @@ set -g fish_key_bindings fish_vi_key_bindings
 oh-my-posh init fish --config $HOME/.config/OhMyPosh/half-life.omp.json | source
 set -gx mask_char '*'
 set PATH ~/.local/bin/:$PATH
+export NNN_PLUG='v:imgview;p:preview-tui'
+set --export NNN_FIFO "/tmp/nnn.fifo"
 
 alias v vis
 alias t tmux
