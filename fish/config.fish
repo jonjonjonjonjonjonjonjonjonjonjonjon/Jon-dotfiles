@@ -17,7 +17,7 @@ set PATH ~/.local/bin/:$PATH
 export NNN_PLUG='v:imgview;p:preview-tui'
 set --export NNN_FIFO "/tmp/nnn.fifo"
 
-alias v vis
+alias v nvim
 alias t tmux
 alias ta "tmux attach"
 alias tk "tmux kill-session"
